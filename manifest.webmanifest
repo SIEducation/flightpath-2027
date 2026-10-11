@@ -1,0 +1,44 @@
+{
+  "id": "./",
+  "name": "FLIGHTPATH 2027｜培訓機師自學計畫",
+  "short_name": "FLIGHTPATH",
+  "description": "長榮培訓機師 2027 自學進度、維也納認知與模擬機訓練紀錄",
+  "lang": "zh-TW",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f9",
+  "theme_color": "#0c182b",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "維也納認知訓練",
+      "short_name": "維也納",
+      "url": "./#vienna"
+    },
+    {
+      "name": "模擬機訓練",
+      "short_name": "模擬機",
+      "url": "./#sim"
+    },
+    {
+      "name": "學習紀錄",
+      "short_name": "學習紀錄",
+      "url": "./#journal"
+    }
+  ],
+  "prefer_related_applications": false
+}

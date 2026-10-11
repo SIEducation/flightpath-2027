@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c182b">
+<meta name="description" content="長榮培訓機師｜2026.10-2027.09 自學計畫，內含每日進度、各科配置與 AI 培訓初始指令。">
+<title>FLIGHTPATH 2027｜培訓機師一年自學計畫</title>
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="FLIGHTPATH">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="color-scheme" content="light">
+<style>
+:root{--navy:#0b192c;--navy2:#12233b;--navy3:#1a3150;--teal:#3dc6b2;--light:#f4f7f9;--paper:#fff;--ink:#1b3044;--muted:#697b8b;--line:#e3eaf0;--red:#bb624d;--amber:#c38a45;--shade:#e7f8f3;--ring:#b0c2d2;--shadow:0 12px 36px rgba(15,35,55,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--light);color:var(--ink);font-family:Inter,"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;font-size:15px;line-height:1.6}button,select,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #60dac4;outline-offset:2px}a{color:#147a89;text-decoration:none}a:hover{text-decoration:underline}abbr{text-decoration:none}::selection{background:#bdece5}
+.shell{min-height:100vh;display:grid;grid-template-columns:262px minmax(0,1fr)}aside{background:var(--navy);color:#dbe7f2;padding:29px 19px 23px;position:sticky;top:0;height:100vh;overflow-y:auto;display:flex;flex-direction:column;gap:26px}.brand{padding:5px 11px}.brand-mark{display:flex;gap:11px;align-items:center;color:white;font-size:16px;font-weight:800;letter-spacing:.04em}.mark{border:1px solid #486777;background:#192e48;color:var(--teal);width:36px;height:36px;display:grid;place-items:center;border-radius:12px;font-size:23px}.brand small{display:block;margin-top:8px;color:#93a9ba;font-size:11px;letter-spacing:.11em;text-transform:uppercase}.side-label{font-size:10px;letter-spacing:.17em;text-transform:uppercase;color:#86a3b5;margin:0 13px 9px}.nav{display:flex;flex-direction:column;gap:4px}.nav button{border:0;width:100%;text-align:left;color:#abbfd0;background:transparent;padding:12px 14px;border-radius:11px;display:flex;align-items:center;gap:13px;font-weight:600;font-size:13px;transition:.18s}.nav button:hover{background:#20344b;color:white}.nav button.active{background:#253d56;color:white;box-shadow:inset 3px 0 0 var(--teal)}.nav-icon{width:22px;text-align:center;font-size:17px;font-weight:500}.side-bottom{margin-top:auto;padding:16px 12px 5px;border-top:1px solid #293e51;color:#93a9ba;font-size:12px}.side-bottom strong{color:#eff7f8}.tiny-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--teal);margin-right:7px}
+main{min-width:0}.top{background:#fff;border-bottom:1px solid var(--line);min-height:73px;padding:15px 36px;display:flex;align-items:center;justify-content:space-between;gap:14px}.crumb{font-size:12px;color:var(--muted)}.top-right{display:flex;align-items:center;gap:10px;flex-wrap:wrap}.chip{background:#eff5f7;color:#446578;border-radius:100px;padding:6px 11px;font-size:11px;font-weight:700;letter-spacing:.04em}.chip.dark{background:#dff5ed;color:#146b61}.outline-button,.solid-button,.ghost-button{border-radius:10px;padding:10px 15px;display:inline-flex;align-items:center;justify-content:center;gap:7px;font-size:12px;font-weight:800;text-decoration:none;transition:.2s;min-height:39px}.outline-button{border:1px solid #cbd9e1;background:white;color:#274356}.outline-button:hover{border-color:#7fb7b0;background:#f0faf8;text-decoration:none}.solid-button{border:1px solid #0b746f;background:#117c75;color:white}.solid-button:hover{background:#096d66;color:white;text-decoration:none}.ghost-button{border:1px solid transparent;background:#edf4f6;color:#2a5666}.ghost-button:hover{background:#dbecef}.content{max-width:1370px;margin:0 auto;padding:30px 38px 70px}.page{display:none;animation:enter .25s ease}.page.active{display:block}@keyframes enter{from{opacity:.3;transform:translateY(5px)}to{opacity:1;transform:none}}.eyebrow{font-size:11px;letter-spacing:.15em;color:#4b9a95;text-transform:uppercase;font-weight:900}.h1{font-size:clamp(26px,3.2vw,39px);letter-spacing:-.035em;line-height:1.25;margin:8px 0 10px;font-weight:800}.lead{font-size:14px;color:var(--muted);max-width:850px;margin:0 0 24px}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:14px;margin:31px 0 14px}.section-heading h2{margin:0;font-size:19px;letter-spacing:-.02em}.section-heading .sub{color:var(--muted);font-size:12px}.hero{background:linear-gradient(119deg,#0f2841 4%,#13344a 57%,#19605e 100%);color:white;border-radius:20px;padding:31px;position:relative;overflow:hidden;display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:205px}.hero::after{content:"";width:320px;height:320px;position:absolute;right:-110px;top:-140px;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 55px #ffffff08,0 0 0 112px #ffffff05;pointer-events:none}.hero .eyebrow{color:#76e6d3}.hero h2{font-size:clamp(24px,3vw,34px);line-height:1.26;letter-spacing:-.02em;margin:9px 0;font-weight:800}.hero p{font-size:13px;color:#c4dedf;max-width:540px;margin:0}.hero .year{color:#bceadd;font-size:90px;line-height:1;font-weight:800;opacity:.23;letter-spacing:-.08em;white-space:nowrap;margin-right:17px}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin-top:18px}.stat{padding:19px 19px 15px;border:1px solid var(--line);background:white;border-radius:14px;min-width:0}.stat .name{font-size:11px;letter-spacing:.03em;color:var(--muted)}.stat .num{font-size:27px;line-height:1.4;font-weight:850;letter-spacing:-.03em}.stat .foot{font-size:11px;color:#78909e}.two-col{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}.card{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;box-shadow:var(--shadow);min-width:0}.card h3{font-size:15px;margin:0 0 12px}.card p{color:#677d88;font-size:13px;margin:7px 0}.stack{display:flex;flex-direction:column;gap:10px}.callout{background:#edf7f4;border:1px solid #cceae1;border-radius:13px;padding:15px 18px;color:#315d56;font-size:13px}.callout.warning{background:#fcf5ea;border-color:#f0dfc6;color:#83613c}.callout b{display:block;margin-bottom:4px;color:inherit}.muted{color:var(--muted)}.small{font-size:12px}.micro{font-size:11px}.strong{font-weight:800}.space-between{display:flex;justify-content:space-between;align-items:center;gap:10px}.progress-track{height:8px;background:#eaf0f1;border-radius:20px;overflow:hidden}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#24918c,#43c5a9);border-radius:20px;transition:width .2s}.route{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.route-step{background:#f7fafb;border:1px solid var(--line);padding:15px 15px;border-radius:12px;min-width:0}.route-step .n{font-size:10px;color:#458783;letter-spacing:.07em;font-weight:800}.route-step h4{font-size:14px;margin:8px 0 7px}.route-step p{font-size:12px;color:#748592;margin:0}.route-step::before{content:"";display:block;width:32px;height:4px;border-radius:9px;background:#54b7ad;margin-bottom:8px}.route-step:nth-child(2)::before{background:#7fa0c5}.route-step:nth-child(3)::before{background:#d0a575}.route-step:nth-child(4)::before{background:#8d99b8}
+.month-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px}.month-card{border:1px solid var(--line);border-radius:15px;background:#fff;overflow:hidden;min-width:0}.month-card.completed{border-color:#8bd6bd}.month-head{border:0;background:transparent;color:inherit;width:100%;text-align:left;padding:17px 19px 13px;display:flex;justify-content:space-between;align-items:center;gap:9px}.month-head:hover{background:#f6faf9}.month-index{font-size:10px;font-weight:900;letter-spacing:.15em;color:#45968d}.month-head h3{font-size:18px;margin:3px 0 4px}.month-head p{margin:0;font-size:11px;color:var(--muted)}.month-arrow{border:1px solid var(--line);border-radius:8px;padding:2px 7px;color:#8298a2}.month-card.open .month-arrow{transform:rotate(180deg)}.month-progress{height:4px;background:#eaf1f2}.month-progress span{display:block;background:#4ebaab;width:0;height:100%}.month-body{display:none;padding:12px 18px 18px;border-top:1px solid #eef2f4}.month-card.open .month-body{display:block}.task-list{display:grid;gap:8px}.task{display:flex;align-items:flex-start;gap:9px;font-size:12px;line-height:1.55;cursor:pointer;color:#41566a}.task input{accent-color:#168577;width:16px;height:16px;flex:none;margin:2px 0 0}.task.done span{color:#8b9ba2;text-decoration:line-through}.month-note{color:#668178;font-size:11px;margin-top:11px;border-top:1px dashed #e1eaea;padding-top:9px}
+.week-chooser,.tabs{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:17px}.tab{background:#fff;border:1px solid var(--line);color:#657c89;border-radius:10px;padding:10px 13px;font-weight:750;font-size:12px}.tab.active{color:#086e68;border-color:#61b2a9;background:#e9f8f4}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.data-table{width:100%;border-collapse:collapse;background:white;min-width:590px;font-size:13px}.data-table th{background:#f3f7f8;color:#647a86;text-align:left;font-weight:750;font-size:11px;padding:12px 16px;border-bottom:1px solid var(--line)}.data-table td{padding:13px 16px;border-bottom:1px solid #ebf0f2}.data-table tr:last-child td{border-bottom:0}.data-table .hours{font-weight:850;color:#246d69;white-space:nowrap}.allocation{display:flex;width:100%;height:21px;border-radius:7px;overflow:hidden;gap:2px;background:#f1f5f7;margin:14px 0}.allocation>span{transition:width .2s}.legend{display:flex;flex-wrap:wrap;gap:9px 17px}.legend>span{font-size:11px;color:#687b86;display:flex;align-items:center;gap:6px}.legend i{width:9px;height:9px;border-radius:3px;display:inline-block}
+.module-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}.module-card{background:white;border:1px solid var(--line);border-radius:15px;padding:19px}.module-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}.module-number{width:37px;height:37px;border-radius:11px;display:grid;place-items:center;font-size:13px;font-weight:900;background:#e8f6f3;color:#237b75}.module-card h3{font-size:16px;margin:0}.module-card .desc{font-size:12px;color:#748593;margin:5px 0 11px}.module-card ul{margin:0;padding-left:19px;color:#506777;font-size:12px}.module-card li{margin-bottom:5px}.tag{font-size:10px;padding:4px 8px;background:#eef3f5;color:#66808a;border-radius:7px;font-weight:800;white-space:nowrap}.tag.teal{background:#e0f7ef;color:#19816f}
+.ai-layout{display:grid;grid-template-columns:275px minmax(0,1fr);gap:16px}.ai-menu{background:white;border:1px solid var(--line);border-radius:15px;padding:10px;height:max-content}.ai-menu button{width:100%;text-align:left;padding:12px;display:flex;align-items:center;justify-content:space-between;gap:10px;border:0;border-radius:10px;background:transparent;font-size:13px;color:#486273;font-weight:750}.ai-menu button:hover{background:#f2f8f6}.ai-menu button.active{background:#e9f7f3;color:#0b766c}.ai-menu .ai-cat{font-size:10px;color:#75909b;letter-spacing:.1em;margin:13px 10px 5px;font-weight:800}.ai-panel{background:white;border:1px solid var(--line);border-radius:16px;padding:23px;min-width:0}.ai-head{display:flex;justify-content:space-between;align-items:flex-start;gap:11px;flex-wrap:wrap}.ai-panel h2{font-size:20px;margin:3px 0 7px}.ai-panel p{font-size:13px;color:var(--muted)}.prompt-box{width:100%;min-height:370px;max-height:600px;resize:vertical;border:1px solid #cfdce4;border-radius:11px;background:#f8fafb;color:#1c3447;line-height:1.77;padding:16px;font-size:12.5px;letter-spacing:.01em;white-space:pre-wrap;tab-size:2}.ai-actions{display:flex;flex-wrap:wrap;gap:8px;margin:13px 0}.ai-steps{margin:11px 0 0;padding-left:20px;font-size:12px;color:#6c7d89}.ai-steps li{margin:4px 0}
+.formgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}.field{display:flex;flex-direction:column;gap:5px;font-size:11px;font-weight:800;color:#627b85}.field input,.field select,.field textarea{padding:11px 12px;border:1px solid #ccdae2;border-radius:9px;background:#fff;min-width:0;width:100%;font-size:13px;color:#18384a}.field textarea{min-height:76px;resize:vertical}.journal-list{display:grid;gap:8px;margin-top:15px}.journal-item{border:1px solid #e8eef1;border-radius:10px;padding:13px;display:flex;justify-content:space-between;gap:10px;align-items:flex-start}.journal-item strong{font-size:13px}.journal-item p{margin:3px 0 0;font-size:12px;color:#71838c}.journal-item .meta{color:#28776f;font-size:12px;font-weight:800}.delete-btn{border:0;background:#fff0eb;color:#ac5742;border-radius:8px;padding:6px 8px;font-size:11px;font-weight:700}.empty-state{text-align:center;padding:26px;color:#889aa7;font-size:13px;border:1px dashed #cfdae2;border-radius:12px}.resources{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.resource{background:#fff;border:1px solid var(--line);border-radius:13px;padding:17px;display:flex;align-items:center;justify-content:space-between;gap:10px}.resource h3{font-size:13px;margin:0 0 5px}.resource p{font-size:11px;color:var(--muted);margin:0}.resource .arrow{font-size:20px;color:#56a89d}.resource:hover{border-color:#9bd7c7;text-decoration:none}.save-toast{position:fixed;bottom:22px;right:24px;background:#0c504e;color:white;padding:11px 17px;font-size:12px;border-radius:10px;box-shadow:0 9px 28px #0003;opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none;z-index:30}.save-toast.visible{opacity:1;transform:none}.footer-note{color:#8d9da9;font-size:11px;margin-top:24px}.mobile-nav{display:none}.hide{display:none!important}
+@media(max-width:1120px){.month-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.shell{grid-template-columns:224px minmax(0,1fr)}.content{padding:25px 26px 60px}.top{padding:13px 26px}.ai-layout{grid-template-columns:210px minmax(0,1fr)}}
+@media(max-width:780px){.shell{display:block}aside{position:relative;height:auto;overflow:visible;padding:14px 18px;flex-direction:row;align-items:center;gap:14px}.brand{padding:0}.brand small{display:none}.side-label,.side-bottom,aside .nav{display:none}.mobile-nav{display:flex;overflow-x:auto;background:#fff;border-bottom:1px solid var(--line);padding:7px 13px;gap:7px;position:sticky;top:0;z-index:10;scrollbar-width:thin}.mobile-nav button{flex:none;background:#f1f5f6;color:#446273;border:0;padding:9px 12px;border-radius:8px;font-size:12px;font-weight:750}.mobile-nav button.active{background:#dff5eb;color:#126e60}.top{padding:12px 19px;min-height:54px}.content{padding:22px 18px 55px}.hero{padding:22px;min-height:165px}.hero .year{font-size:51px;opacity:.18}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.two-col,.ai-layout{grid-template-columns:1fr}.ai-menu{display:flex;overflow:auto;gap:6px;padding:9px}.ai-menu button{flex:none;width:auto;white-space:nowrap}.ai-menu .ai-cat{display:none}.route{grid-template-columns:repeat(2,minmax(0,1fr))}.formgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:510px){.brand-mark{font-size:14px}.top .chip{display:none}.top-right .outline-button{padding:8px 10px;font-size:11px}.hero .year{display:none}.stats,.month-grid,.module-grid,.resources{grid-template-columns:1fr}.route{grid-template-columns:1fr 1fr}.month-card.open .month-body{padding-bottom:15px}.ai-panel,.card{padding:16px}.h1{font-size:29px}.formgrid{grid-template-columns:1fr}.ai-actions .solid-button,.ai-actions .outline-button{flex:1 1 150px}.stat .num{font-size:24px}}
+@media print{aside,.mobile-nav,.top,.ai-menu,.top-right,.ai-actions,.save-toast,.month-head .month-arrow,.formgrid button,.delete-btn{display:none!important}.shell{display:block}body{background:white}.content{padding:10px}.page:not(.active){display:none!important}.page{display:block!important}.card,.stat,.month-card,.module-card{box-shadow:none;break-inside:avoid}.month-grid{grid-template-columns:repeat(2,1fr)}.month-body{display:block!important}.prompt-box{max-height:none;height:auto!important;border:1px solid #ddd}}
+
+/* Cognitive training center: original dashboard styles preserved */
+.vienna-hero{background:linear-gradient(110deg,#10253d,#18524f);color:#eefcf8;border-radius:17px;padding:22px 26px;margin-bottom:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.vienna-hero p{color:#cde4e2;margin:6px 0 0;font-size:13px;max-width:750px}.vienna-hero h2{margin:0;font-size:22px}
+.v-kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:15px 0}.v-kpi{border:1px solid var(--line);border-radius:12px;background:#fff;padding:15px}.v-kpi b{font-size:25px;display:block}.v-kpi span{font-size:11px;color:var(--muted)}
+.v-fit{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.v-check{padding:10px 12px;background:#f5f9f8;border:1px solid var(--line);border-radius:10px;font-size:13px;font-weight:700;display:flex;gap:9px;align-items:center;cursor:pointer}.v-check input{accent-color:#198779;width:17px;height:17px}
+.v-week-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}.v-week{padding:14px;background:#fff;border:1px solid var(--line);border-radius:12px}.v-week h3{font-size:13px;margin:6px 0}.v-week p{margin:0;font-size:12px;color:#65818a}
+ .v-phase-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.v-phase-tabs .tab{flex:1;min-width:210px}
+.v-session-stats{display:flex;gap:9px;flex-wrap:wrap;align-items:center;font-size:12px;color:#55717f;margin-bottom:8px}.v-session-stats span{padding:5px 10px;border-radius:8px;background:#eef6f4}
+.v-completion{padding:14px 0 0}.v-completion-fields{display:grid;grid-template-columns:minmax(145px,1fr) 2fr;gap:12px}.v-completion .solid-button:disabled{opacity:.55;cursor:not-allowed}
+.v-history{display:grid;gap:7px}.v-history-item{padding:11px 13px;background:#fff;border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:12px}
+
+.v-taskbox{background:#f7fafb;border:1px solid #dceae9;border-radius:14px;padding:17px 20px;margin-top:14px}.v-taskbox h3{margin:0 0 9px}.v-taskbox ol{padding-left:20px;margin:10px 0;font-size:13px}.v-taskbox li{margin-bottom:9px}.v-taskbox p{font-size:12px;color:#617b85;margin:6px 0}
+.v-score-form{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px}.v-score-form .wide{grid-column:span 2}.v-score-form .full{grid-column:1/-1}
+.v-table td{font-size:12px;vertical-align:top}.v-table th{font-size:11px}.v-record-note{max-width:380px;white-space:normal;word-break:break-word}
+.v-center{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.v-footnote{font-size:12px;color:#748892}
+@media(max-width:980px){.v-week-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:570px){.v-kpis,.v-week-grid,.v-fit{grid-template-columns:1fr}.v-score-form{grid-template-columns:1fr 1fr}.v-score-form .wide{grid-column:span 2}.v-completion-fields{grid-template-columns:1fr}.v-phase-tabs .tab{min-width:0;flex:1 1 100%}.v-score-form .field.wide{grid-column:1/-1}}
+
+.v-schedule-intro{margin:14px 0 18px}.v-schedule-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:15px}.v-schedule-item{display:flex;flex-direction:column;gap:4px;background:#f6faf9;border:1px solid #d7ebe6;border-radius:12px;padding:15px}.v-schedule-item span{font-size:11px;color:#5f7d87}.v-schedule-item strong{font-size:18px;color:#125e59}.v-schedule-item small{color:#607d81}.v-schedule-intro p{margin-bottom:0}.v-schedule-status{padding:12px 14px;border:1px solid #dce9e6;border-radius:11px;background:#f8fcfa}.v-schedule-head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:13px;margin-bottom:9px}.v-schedule-status p{font-size:12px;color:#577981;margin:8px 0 0}@media(max-width:570px){.v-schedule-grid{grid-template-columns:1fr}.v-schedule-item strong{font-size:16px}}
+/* Training dose / 4-week transfer audit */
+.v-time-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin:15px 0}
+.v-timepart{background:#eaf5f3;border:1px solid #cde5df;border-radius:11px;padding:11px 7px;text-align:center;display:flex;flex-direction:column;gap:4px}
+.v-timepart b{font-size:17px;color:#146e69}.v-timepart span{font-size:11px;color:#536e78}
+.v-timepart.rest{background:#f9f1e5;border-color:#f0dcc0}.v-timepart.rest b{color:#95662b}
+.v-guidelines,.v-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.v-guidelines>div,.v-review-grid>div{background:#f8fafb;padding:12px 14px;border:1px solid var(--line);border-radius:10px}
+.v-guidelines b,.v-review-grid b{color:#274b5b;font-size:13px}.v-guidelines p{margin:6px 0 0}.v-review-grid span{display:block;margin-top:5px;color:#687d89;font-size:12px}
+@media(max-width:640px){.v-time-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.v-guidelines,.v-review-grid{grid-template-columns:1fr}}
+
+/* FLIGHTPATH PWA - intentional two-layout design */
+[hidden]{display:none!important}
+.mobile-tabbar,.mobile-more-menu,.mobile-more-shade{display:none}
+.install-dialog{border:0;border-radius:20px;padding:0;max-width:min(450px,calc(100vw - 30px));width:100%;box-shadow:0 22px 65px #03172755;background:white;color:var(--ink)}
+.install-dialog::backdrop{background:rgba(4,21,37,.63)}
+.install-dialog-content{padding:24px}
+.install-dialog h2{font-size:21px;line-height:1.3;margin:0 0 8px}
+.install-dialog p{font-size:13px;color:#667b89;margin:7px 0}
+.install-steps{display:grid;gap:10px;margin:15px 0}
+.install-step{background:#f2f7f8;border:1px solid #e2eaf0;padding:11px 12px;border-radius:10px;font-size:13px}
+.install-step b{display:block;color:#234b60;margin-bottom:3px}
+.install-hint{font-size:12px;color:#6d8290}
+.top-right #installAppBtn{background:#0e7b74;border:1px solid #0e7b74;color:white}
+.top-right #installAppBtn:hover{background:#08675f}
+@media(max-width:780px){
+ body{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px));overflow-x:hidden}
+ .shell,main,.content,.page{min-width:0;max-width:100%}
+ .mobile-nav{display:none!important}
+ .mobile-tabbar{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));position:fixed;bottom:0;left:0;right:0;z-index:60;background:#fffffffa;border-top:1px solid #d6e4e6;box-shadow:0 -7px 25px #0b253015;padding:5px 6px calc(5px + env(safe-area-inset-bottom,0px));gap:3px;backdrop-filter:blur(16px)}
+ .mobile-tabbar button{border:0;background:transparent;color:#667d8a;border-radius:10px;min-width:0;min-height:56px;padding:7px 1px 4px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;font-size:11px;font-weight:700;line-height:1.15}
+ .mobile-tabbar .tabicon{font-size:22px;line-height:25px;font-weight:500}
+ .mobile-tabbar button.active{background:#e5f5f0;color:#076e64}
+ .mobile-tabbar button:focus-visible,.mobile-more-menu button:focus-visible{outline:3px solid #35b7a7;outline-offset:-3px}
+ .mobile-more-shade{display:block;position:fixed;inset:0;z-index:61;background:#07182770}
+ .mobile-more-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;position:fixed;z-index:62;left:12px;right:12px;bottom:calc(76px + env(safe-area-inset-bottom,0px));max-height:65dvh;overflow-y:auto;padding:17px;background:#fff;border:1px solid #d9e4eb;border-radius:18px;box-shadow:0 15px 45px #07182733}
+ .mobile-more-menu h2{grid-column:1/-1;margin:0 0 3px;font-size:15px}
+ .mobile-more-menu button{border:1px solid #dce8ec;background:#f8fbfb;min-height:47px;color:#305567;font-size:12px;font-weight:750;border-radius:10px;padding:9px;text-align:left}
+ .mobile-more-menu button.active{color:#0f7066;background:#e6f6f1;border-color:#8ecfbd}
+ .top{min-height:56px;padding:9px 15px}
+ .top .crumb{display:none}
+ .top-right{gap:5px}
+ .content{padding:21px 15px 28px}
+ .hero{padding:20px;border-radius:17px}
+ .hero h2{font-size:25px}
+ .hero .year{display:none}
+ .card,.ai-panel,.module-card{box-shadow:none}
+ .section-heading{align-items:flex-start;flex-direction:column;gap:3px;margin:26px 0 12px}
+ .v-center>*{min-height:44px}
+ .outline-button,.solid-button,.ghost-button,.tab{min-height:44px}
+ .data-table{font-size:12px}
+ .table-wrap{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+ input,select,textarea{max-width:100%}
+ .field input,.field select,.field textarea{font-size:16px}
+ .ai-panel,.card{min-width:0}
+ .prompt-box{font-size:14px}
+ .route-step,.month-card,.module-card,.stat{min-width:0}
+ .callout,.v-taskbox,.v-history-item{overflow-wrap:anywhere}
+}
+@media(max-width:480px){
+ .brand-mark{font-size:15px}.brand .mark{height:31px;width:31px;font-size:21px}
+ .top-right #exportBtn{display:none}
+ .top-right #installAppBtn{font-size:11px;padding:7px 10px;min-height:36px}
+ .top .chip{display:none}
+ .content{padding:18px 12px 28px}
+ .card,.ai-panel,.module-card{padding:16px}
+ .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .stat{padding:13px 12px}
+ .stat .num{font-size:23px}
+ .hero{padding:18px}
+ .route{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .route-step{padding:12px}
+ .formgrid,.v-score-form{grid-template-columns:minmax(0,1fr)}
+ .v-score-form .wide,.v-score-form .full{grid-column:1/-1}
+ .v-schedule-grid,.v-kpis,.v-fit,.v-week-grid,.v-guidelines,.v-review-grid{grid-template-columns:1fr}
+ .v-time-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .v-phase-tabs{gap:8px}
+ .v-phase-tabs .tab{width:100%;min-width:0;flex:1 1 100%}
+ .mobile-more-menu{left:8px;right:8px;padding:12px}
+}
+@media(min-width:781px){
+ .mobile-tabbar,.mobile-more-menu,.mobile-more-shade{display:none!important}
+}
+@media print{.mobile-tabbar,.mobile-more-menu,.mobile-more-shade,#installAppBtn,.install-dialog{display:none!important}body{padding-bottom:0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.page,.progress-fill{animation:none;transition:none}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside>
+  <div class="brand"><div class="brand-mark"><span class="mark">✈</span><span>FLIGHTPATH<span style="color:var(--teal)">.</span></span></div><small>CADET PILOT · 2027</small></div>
+  <div><div class="side-label">STUDY CONTROL</div><nav class="nav" id="desktopNav">
+    <button data-view="dashboard" class="active"><span class="nav-icon">◫</span>總覽儀表板</button>
+    <button data-view="timeline"><span class="nav-icon">▦</span>12個月讀書計畫</button>
+    <button data-view="weekly"><span class="nav-icon">◷</span>每週時數分配</button>
+    <button data-view="modules"><span class="nav-icon">▤</span>八大科目與目標</button>
+     <button data-view="vienna"><span class="nav-icon">◎</span>維也納認知訓練</button>
+    <button data-view="sim"><span class="nav-icon">⊕</span>模擬機訓練</button>
+    <button data-view="ai"><span class="nav-icon">✦</span>AI 培訓專區</button>
+    <button data-view="journal"><span class="nav-icon">✎</span>學習紀錄</button>
+    <button data-view="resources"><span class="nav-icon">↗</span>教材與使用說明</button>
+  </nav></div>
+  <div class="side-bottom"><span class="tiny-dot"></span><strong>自學模式</strong> · 零補習課程<br>2026.10 → 2027.09<br><span style="font-size:10px">進度儲存於此瀏覽器</span></div>
+</aside>
+<main>
+<header class="top"><div><div class="crumb">PERSONAL STUDY CENTER / LONG-TERM PREPARATION</div><div style="font-size:13px;font-weight:750" id="topPageTitle">總覽儀表板</div></div><div class="top-right"><span class="chip dark">EVA AIR · FIRST CHOICE</span><button class="outline-button" id="installAppBtn" type="button" aria-haspopup="dialog">⬇ 安裝 App</button><button class="outline-button" id="exportBtn" type="button">↓ 匯出進度</button></div></header>
+<nav class="mobile-nav" id="mobileNav" aria-label="行動版導覽">
+<button data-view="dashboard" class="active">總覽</button><button data-view="timeline">月計畫</button><button data-view="weekly">週時數</button><button data-view="modules">八大科</button><button data-view="vienna">◎ 維也納</button><button data-view="sim">⊕ 模擬機</button><button data-view="ai">✦ AI專區</button><button data-view="journal">紀錄</button><button data-view="resources">教材</button>
+</nav>
+
+<!-- Mobile-first bottom navigation; desktop keeps its original full sidebar. -->
+<div id="mobileMoreShade" class="mobile-more-shade" hidden></div>
+<div id="mobileMoreMenu" class="mobile-more-menu" hidden aria-label="其他功能">
+  <h2>更多學習專區</h2>
+  <button type="button" data-view="weekly">◷ 每週時數分配</button>
+  <button type="button" data-view="modules">▤ 八大科目與目標</button>
+  <button type="button" data-view="ai">✦ AI 培訓專區</button>
+  <button type="button" data-view="journal">✎ 學習紀錄／備份</button>
+  <button type="button" data-view="resources">↗ 教材與使用說明</button>
+  <button type="button" id="closeMoreBtn">✕ 關閉選單</button>
+</div>
+<nav class="mobile-tabbar" aria-label="手機主要導覽">
+  <button type="button" data-view="dashboard" class="active"><span class="tabicon">⌂</span><span>總覽</span></button>
+  <button type="button" data-view="timeline"><span class="tabicon">▦</span><span>月計畫</span></button>
+  <button type="button" data-view="vienna"><span class="tabicon">◎</span><span>維也納</span></button>
+  <button type="button" data-view="sim"><span class="tabicon">⊕</span><span>模擬機</span></button>
+  <button type="button" id="mobileMoreToggle" aria-expanded="false" aria-controls="mobileMoreMenu"><span class="tabicon">⋯</span><span>更多</span></button>
+</nav>
+<div class="content">
+<section id="dashboard" class="page active">
+  <div class="eyebrow">01 / YOUR FLIGHT PLAN</div><h1 class="h1">一步一步，飛向2027。</h1><p class="lead">第一志願長榮培訓飛航學員。先以英文、物理、數學建立基礎，再加入維也納、模擬機、航空英文；由 ChatGPT 在最後階段協助中英文面試訓練。</p>
+  <div class="hero"><div style="position:relative;z-index:1"><div class="eyebrow">12-MONTH SELF-STUDY MISSION</div><h2>從學科實力<br>到完整飛航潛質</h2><p>不追求「念完一年」；每一階段以實際達標為準。你的讀書進度、訓練紀錄與 AI 專區都放在這裡。</p></div><div class="year" aria-hidden="true">2027</div></div>
+  <div class="callout" style="margin:15px 0 0"><b>手機與電腦都可使用｜進度儲存在各自的瀏覽器</b>此網站支援手機安裝成 App、電腦網頁瀏覽及離線使用；手機與電腦的勾選、維也納與模擬機紀錄不會自動同步。要換裝置接續，請先在原裝置「匯出進度」，再到另一台裝置「匯入 JSON 備份」。</div>
+  <div class="stats">
+    <div class="stat"><div class="name">計畫期間</div><div class="num">12 <span style="font-size:15px">個月</span></div><div class="foot">2026.10 — 2027.09</div></div>
+    <div class="stat"><div class="name">每週基準</div><div class="num">10 <span style="font-size:15px">小時</span></div><div class="foot">約 500–520 小時／年</div></div>
+    <div class="stat"><div class="name">月度任務完成</div><div class="num" id="statPercent">0%</div><div class="foot" id="statTaskCount">0 / 0 個檢查點</div></div>
+    <div class="stat"><div class="name">已記錄自學時數</div><div class="num" id="statHours">0 <span style="font-size:14px">h</span></div><div class="foot" id="statSession">0 次訓練</div></div>
+  </div>
+  <div class="section-heading"><h2>四階段學習路線</h2><span class="sub">優先把學科打穩，再提高多工強度</span></div>
+  <div class="route"><div class="route-step"><div class="n">PHASE 01 · OCT–DEC 2026</div><h4>基礎學科</h4><p>數學、物理、英文為主。心算每天少量訓練。</p></div><div class="route-step"><div class="n">PHASE 02 · JAN–MAR 2027</div><h4>限時與證照</h4><p>英文正式測驗、高中數理複習，建立限時正確率。</p></div><div class="route-step"><div class="n">PHASE 03 · APR–JUN 2027</div><h4>非學科入門</h4><p>維也納、Logitech 手把、航空知識與英文指令。</p></div><div class="route-step"><div class="n">PHASE 04 · JUL–SEP 2027</div><h4>甄選整合</h4><p>高負荷多工、PAE練習、ChatGPT中英文面試。</p></div></div>
+  <div class="section-heading"><h2>準備進度</h2><span class="sub">從每月核取任務自動統計</span></div>
+  <div class="two-col">
+    <div class="card"><div class="space-between"><h3>月度任務整體完成率</h3><span id="progressTxt" class="strong" style="color:#207f74">0%</span></div><div class="progress-track"><div class="progress-fill" id="progressFill"></div></div><p>進入「12個月讀書計畫」展開月份後勾選，每次操作會儲存在此瀏覽器。達標項目不代表官方及格。</p><button class="outline-button" type="button" data-goto="timeline">查看月計畫 →</button></div>
+    <div class="card"><h3>眼下最重要的事</h3><p><b>先完成學科打底。</b> 若你仍在進行航空醫學諮詢，可與讀書準備並行；正式醫療資格應由航醫判斷。</p><div class="callout" style="margin-top:13px"><b>認知能力可提早少量接觸</b>2027 年 4 月前每週自由選 3 天、每次 15 分鐘；4 月起每週 5 天、每次 40 分鐘，其中 4 次正常訓練、1 次輕量複習。這些時數已納入每週 10 小時的整體預算，不是額外加課。</div></div>
+  </div>
+</section>
+<section id="timeline" class="page">
+ <div class="eyebrow">02 / MONTHLY ROADMAP</div><h1 class="h1">12個月讀書計畫</h1><p class="lead">每個月份都有具體任務及當月檢查點。點擊月份展開清單，完成後打勾，進度會自動儲存。</p>
+ <div class="callout"><b>時間規劃不是官方考期</b>2027年9月是個人備考目標，不代表長榮固定在9月辦理甄選。若準備提前達標、資格也已確認，可依實際招募資訊調整。</div>
+ <div class="callout" style="margin-top:16px"><b>維也納預習提前開始，但不擠壓主科</b>2026/10–12 每週 1 次 × 15 分鐘，2027/1–3 每週 2 次 × 15 分鐘，只做低負荷預習。4–6 月以維也納 3 小時、模擬機 2 小時 15 分鐘為核心；7–9 月維也納降至 2 小時，模擬機提高至 2 小時 30 分鐘並納入面試。所有安排均計入各階段每週 10 小時。</div>
+  <div class="section-heading"><h2>2026年｜學科打底</h2><span class="sub">10–12月</span></div><div class="month-grid" id="m2026"></div>
+ <div class="section-heading"><h2>2027年｜學科衝刺</h2><span class="sub">1–3月</span></div><div class="month-grid" id="mq1"></div>
+ <div class="section-heading"><h2>2027年｜認知與飛行入門</h2><span class="sub">4–6月</span></div><div class="month-grid" id="mq2"></div>
+ <div class="section-heading"><h2>2027年｜綜合甄選</h2><span class="sub">7–9月</span></div><div class="month-grid" id="mq3"></div>
+ <div class="callout warning" style="margin-top:20px"><b>調整規則</b>物理或英文落後時，允許調整1–2個月；不要為了進度表而在學科沒掌握時硬切換到模擬機。數學、物理與英文會在後半年保留少量複習。</div>
+</section>
+<section id="weekly" class="page">
+ <div class="eyebrow">03 / WEEKLY ALLOCATION</div><h1 class="h1">每週10小時怎麼分配？</h1><p class="lead">以原版四階段每週 10 小時配置為基準：2026/10–12 學科優先、2027/1–3 英文與數理衝刺、4–6 認知與模擬機入門、7–9 增加飛行整合及面試。維也納和模擬機各自佔用表列時數，不再額外疊加。</p>
+ <div class="week-chooser" id="phaseTabs"></div>
+ <div class="card" style="margin-bottom:16px"><div class="space-between"><div><h3 id="phaseName" style="margin:0"></h3><span class="small muted" id="phaseDescription"></span></div><span class="chip dark">10 h / 週</span></div><div class="allocation" id="hourBar"></div><div class="legend" id="hourLegend"></div></div>
+ <div class="table-wrap"><table class="data-table"><thead><tr><th>科目</th><th>每週時數</th><th>此階段的用途</th></tr></thead><tbody id="hourRows"></tbody></table></div>
+<div class="section-heading"><h2>彈性選日｜本階段 10 小時如何安排</h2><span class="sub">不固定星期幾；上面的四階段分配優先</span></div>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>分配區塊</th><th>每週安排</th><th>包含時數</th></tr></thead><tbody id="phaseFlexibleRows"></tbody></table></div>
+  <div class="callout" style="margin-top:14px"><b>與原版科目比重對齊</b>4 月前只挪出每週 15–30 分鐘做認知預習，英文、數理仍是主軸；4–6 月維也納 3 小時、模擬機 2 小時 15 分鐘；7–9 月維也納 2 小時、模擬機 2 小時 30 分鐘，同時保留中英文面試 1 小時 30 分鐘。若學科落後，優先從非學科的練習次數彈性調整，沒有欠課。</div>
+</section>
+<section id="modules" class="page">
+ <div class="eyebrow">04 / SUBJECT FRAMEWORK</div><h1 class="h1">八大訓練科目與目標</h1><p class="lead">這裡同時收錄正式甄選相關能力與輔助準備。航空知識不是長榮培訓學員官方列出的獨立筆試科目；AI 面試則安排在最後階段。</p>
+ <div class="module-grid" id="modulesGrid"></div>
+ <div class="section-heading"><h2>自訂達標指標</h2></div>
+ <div class="table-wrap"><table class="data-table"><thead><tr><th>項目</th><th>個人目標（非官方及格分）</th><th>驗證方式</th></tr></thead><tbody>
+ <tr><td>TOEIC L&R</td><td>850–900</td><td>有效正式成績單</td></tr><tr><td>TOEIC Speaking/Writing</td><td>各160+</td><td>有效正式成績單</td></tr><tr><td>數學、物理</td><td>陌生限時題穩定約85–90%以上</td><td>每月混合題測驗及錯題分析</td></tr><tr><td>心算</td><td>準確為主，逐步加快</td><td>正確率、用時、失誤原因</td></tr><tr><td>維也納相關能力</td><td>沒有持續未改善的弱項</td><td>不同任務的正確率／漏按／反應變異</td></tr><tr><td>模擬機／PAE</td><td>能平穩控制且回應英文指令</td><td>記錄航向高度偏差、指令完成情況</td></tr><tr><td>航空知識與英文</td><td>理解基礎原理、能聽懂基本指令</td><td>英文解釋、短題與情境練習</td></tr><tr><td>中英文面試</td><td>真實、清楚、能回應追問</td><td>AI模擬、STAR案例與回饋</td></tr>
+ </tbody></table></div>
+</section>
+
+<section id="vienna" class="page">
+ <div class="eyebrow">COGNITIVE SKILLS / A–F</div><h1 class="h1">維也納｜認知潛質訓練</h1>
+ <p class="lead">維持原版每週 10 小時的整體配額，按四階段改變認知訓練負荷。不宣稱知道長榮正式題庫或維也納測驗常模。</p>
+ <div class="vienna-hero"><div><h2>依學習階段安排，而非強迫每天打卡</h2><p>2026/10–12：15 分／週；2027/1–3：30 分／週；2027/4–6：3 小時／週；2027/7–9：2 小時／週。每次有空做完按「已訓練」，才前進到下一張任務；缺席不會跳關。</p></div><button class="outline-button" type="button" data-goto="ai">✦ AI 教練指令</button></div>
+ <div class="v-kpis"><div class="v-kpi"><b id="vCount">0</b><span>已完成訓練次數</span></div><div class="v-kpi"><b id="vTime">0 分</b><span>回報訓練分鐘數</span></div><div class="v-kpi"><b id="vLast">尚未登錄</b><span>最近訓練日期</span></div></div>
+ <div class="card" style="margin-bottom:14px"><h3>四階段認知訓練量｜已納入總讀書時數</h3><div class="v-schedule-grid">
+ <div class="v-schedule-item"><span>2026 年 10–12 月</span><strong>每週 1 次 × 15 分</strong><small>低負荷預習：注意、記憶、空間輪替</small></div>
+ <div class="v-schedule-item"><span>2027 年 1–3 月</span><strong>每週 2 次 × 15 分</strong><small>擴充規則切換，保留學科主力</small></div>
+ <div class="v-schedule-item"><span>2027 年 4–6 月</span><strong>每週 4 次 × 45 分</strong><small>基準、單任務、雙任務、短多工</small></div>
+ <div class="v-schedule-item"><span>2027 年 7–9 月</span><strong>每週 3 次 × 40 分</strong><small>三任務、錯誤恢復、陌生題驗證</small></div>
+ </div><p class="small muted">以上是平均建議，不是到期欠課。原始各科比重以「每週時數分配」頁面為準。4 月前不需額外開始模擬機正式課程。</p></div>
+ <div class="two-col">
+ <div class="card"><h3>設備確認</h3><p>此處僅記錄你自我勾選，網站不會偵測電腦、耳機或手把。</p><div class="v-fit" id="vDevices"><label class="v-check"><input type="checkbox" data-device="computer">電腦</label><label class="v-check"><input type="checkbox" data-device="keyboard">鍵盤</label><label class="v-check"><input type="checkbox" data-device="headphones">耳機／音訊</label><label class="v-check"><input type="checkbox" data-device="gamepad">羅技手把</label></div><p id="vReadyText" class="micro muted"></p></div>
+ <div class="card"><h3>基準與四週檢核</h3><p>每完成約四週建議訓練量，就以一次正常課堂替換為交叉驗證，不加總時數。比較相同工具的誤按、漏按、準確率與有實測的反應時間，另外加入陌生刺激避免只熟悉遊戲。</p><button id="vCopyPrompt" type="button" class="outline-button">複製 AI 基準評估指令</button></div>
+ </div>
+ <div class="section-heading"><h2>六大能力</h2><span class="sub">只以實測資料評估</span></div>
+ <div class="table-wrap"><table class="data-table"><thead><tr><th>面向</th><th>能力與任務</th><th>記錄</th></tr></thead><tbody>
+ <tr><td>A 注意力</td><td>持續／選擇性注意，抑制誤按</td><td>正確率、誤按、漏按</td></tr><tr><td>B 工作記憶</td><td>聽覺／視覺序列、倒背、延遲回憶</td><td>序列正確與遺漏</td></tr><tr><td>C 空間判斷</td><td>方位、旋轉、視角變更</td><td>正確率、方向混淆</td></tr><tr><td>D 規則切換</td><td>反應抑制、異規則轉換</td><td>切換後錯誤</td></tr><tr><td>E 多工</td><td>監控＋記憶＋簡單計算</td><td>各子任務表現與下降幅度</td></tr><tr><td>F 錯誤恢復</td><td>錯誤後回穩、維持注意力</td><td>連錯次數、恢復策略</td></tr>
+ </tbody></table></div>
+ <div class="section-heading"><h2>目前這次認知任務</h2><span class="sub">完成才換卡，與日曆不強制綁定</span></div>
+ <div class="card"><div class="v-phase-tabs" id="vPhaseTabs" role="group" aria-label="認知訓練階段"></div>
+ <div id="vSessionStats" class="v-session-stats"></div><div id="vScheduleStatus" class="v-schedule-status"></div><div id="vTaskBox" class="v-taskbox"></div>
+ <div class="v-completion"><div class="v-completion-fields"><label class="field">實際訓練分鐘（選填）<input type="number" id="vDoneMinutes" min="1" max="180" step="1" placeholder="不填則不計入時數"></label><label class="field">本次心得（選填）<input id="vDoneNote" maxlength="180" placeholder="誤按、漏按、規則切換、疲勞等"></label></div>
+ <div class="v-center"><button class="solid-button" id="vMarkTrained" type="button">✓ 已訓練，換下一次</button><button class="outline-button" id="vUndoTrained" type="button">↶ 撤銷最近完成</button></div><p id="vSessionHint" class="v-footnote"></p></div></div>
+ <div class="section-heading"><h2>已完成的認知任務</h2></div><div id="vCompletionHistory" class="v-history"></div>
+  <div class="section-heading" id="vRecordAnchor"><h2>客觀訓練紀錄</h2><span class="sub">與原本學習日誌、JSON 備份整合</span></div>
+  <div class="card"><p>只記錄實際測到的數值。此表成績本身不另計訓練分鐘；請在上方「已訓練」填一次實際時數，避免重複計算。Pilotest 顯示的「綜合分數或網站等級」不是答題正確率，請另外填寫；若沒有題數及答對數，正確率將標為未測。誤按、漏按若有填寫，會檢查不能超過錯題總數。</p>
+    <form id="vScoreForm"><div class="v-score-form">
+    <label class="field">日期<input id="vDate" type="date" required></label>
+    <label class="field">面向／題型<select id="vKind" required><option value="A 注意力">A 注意力</option><option value="B 工作記憶">B 工作記憶</option><option value="C 空間判斷">C 空間判斷</option><option value="D 規則切換">D 規則切換</option><option value="E 多工">E 多工</option><option value="F 錯誤恢復">F 錯誤恢復</option><option value="混合／陌生題">混合／陌生題</option></select></label>
+    <label class="field">工具來源<select id="vTool"><option>ChatGPT</option><option>Pilotest</option><option>其他練習工具</option></select></label>
+    <label class="field">實際分鐘數<input id="vMinutes" type="number" min="1" max="180" step="1" value="15" required></label>
+    <label class="field">總題數（未知可空）<input id="vTotalQ" type="number" min="1" step="1" placeholder="如 40"></label>
+    <label class="field">答對題數（未知可空）<input id="vCorrectQ" type="number" min="0" step="1" placeholder="如 34"></label>
+    <label class="field">誤按數（未知可空）<input id="vFalseQ" type="number" min="0" step="1" placeholder="如 2"></label>
+    <label class="field">漏按數（未知可空）<input id="vMissQ" type="number" min="0" step="1" placeholder="如 1"></label>
+    <label class="field">網站綜合分數％（非正確率）<input id="vSiteScore" type="number" min="0" max="100" step="0.01" placeholder="如 67"></label>
+    <label class="field">網站等級（選填）<input id="vStanine" type="number" min="1" max="9" step="1" placeholder="1–9"></label>
+    <label class="field">反應時間 ms（須由工具提供）<input id="vReaction" type="number" min="0" max="30000" step="0.01" placeholder="如 507"></label>
+    <label class="field">訓練條件／版本<input id="vCondition" maxlength="80" placeholder="例：鍵盤、形狀切換"></label>
+    <label class="field wide">錯誤型態<textarea id="vMistakes" rows="2" maxlength="300" placeholder="例如：菱形/三角形混淆、看到上一題就搶按"></textarea></label>
+    <label class="field wide">下次調整<textarea id="vNextPlan" rows="2" maxlength="300" placeholder="例如：改用左右方向規則，比對新題型中的誤按數"></textarea></label>
+    </div><div class="v-center"><button class="solid-button" type="submit">＋ 儲存認知練習</button><span class="v-footnote" id="vValidation" role="status">成績獨立保存；本次時數由上方「已訓練」計入原本學習日誌，避免重複統計。</span></div></form>
+  </div>
+  <div class="section-heading"><h2>已紀錄的表現</h2><span class="sub">不自動產生排名或及格判定</span></div>
+  <div id="vRecords"></div>
+
+ <p class="footer-note">Pilotest 僅是練習工具，不代表長榮正式題目。本站無法量測毫秒反應或自動讀取硬體結果；未知欄位請留空。</p>
+</section>
+<section id="sim" class="page">
+ <div class="eyebrow">FLIGHT SIMULATOR / BASIC TO INTEGRATED</div><h1 class="h1">模擬機｜FlightGear × Logitech</h1>
+ <p class="lead">沿用原本 4 月才正式投入的規劃，先控制與儀表，再英文指令，最後整合心算、記憶及錯誤恢復。不是長榮正式 PAE 設備或考題。</p>
+ <div class="vienna-hero"><div><h2>從穩定操控開始，逐步加入任務負荷</h2><p>2027/4–6 每週 2 小時 15 分鐘（建議 3×45 分）；7–9 每週 2 小時 30 分鐘（建議 3×50 分）。有空完成才推進；沒有練習的一天不跳題、沒有補課負債。</p></div><button class="outline-button" type="button" data-goto="ai">✦ AI 模擬機教練</button></div>
+ <div class="card"><h3>與原本月度課程同步</h3><div class="v-schedule-grid"><div class="v-schedule-item"><span>4 月 · 操控基準</span><strong>手把軸向與 Pitch/Roll</strong><small>校正→小幅修正→平飛穩定</small></div><div class="v-schedule-item"><span>5 月 · 儀表</span><strong>航向／高度／空速</strong><small>姿態控制與掃描；簡單英文口令</small></div><div class="v-schedule-item"><span>6 月 · 英語指令</span><strong>高度、航向變更</strong><small>控制一項時監控其他項目</small></div><div class="v-schedule-item"><span>7–9 月 · 多工整合</span><strong>飛行＋心算／記憶</strong><small>錯誤恢復、陌生指令、保留面試時間</small></div></div>
+ <p class="small muted">飛行原理與英文指令可在操作時實際練習；若已算入模擬機分鐘，就不要再重複登記航空知識時數。計畫強度要以實際能否保持安全的學習品質調整。</p></div>
+ <div class="section-heading"><h2>這次模擬機訓練</h2><span class="sub">與認知訓練分開推進</span></div>
+ <div class="card"><div class="v-phase-tabs" id="sPhaseTabs" role="group" aria-label="模擬機訓練階段"></div><div id="sSessionStats" class="v-session-stats"></div><div id="sTaskBox" class="v-taskbox"></div>
+ <div class="v-completion"><h3>操作紀錄｜只填實際看得到的數字</h3>
+ <div class="v-score-form"><label class="field">實際分鐘（選填）<input id="sDoneMinutes" type="number" min="1" max="180" step="1" placeholder="不填不計時"></label>
+ <label class="field">最大航向偏差（度）<input id="sHeading" type="number" min="0" max="360" step="0.1" placeholder="未量測留空"></label>
+ <label class="field">最大高度偏差（ft）<input id="sAltitude" type="number" min="0" max="100000" step="1" placeholder="未量測留空"></label>
+ <label class="field">最大空速偏差（kt）<input id="sAirspeed" type="number" min="0" max="500" step="0.1" placeholder="未量測留空"></label>
+ <label class="field">英文指令成功／總數（如 3/4）<input id="sCommands" maxlength="20" placeholder="未測留空"></label>
+ <label class="field">明顯過度修正次數（選填）<input id="sOvershoot" type="number" min="0" max="999" step="1" placeholder="未測留空"></label>
+ <label class="field full">觀察與下一次重點<input id="sDoneNote" maxlength="220" placeholder="例如：右轉時有反向操作；下次先慢速修正"></label></div>
+ <div class="v-center"><button class="solid-button" id="sMarkTrained" type="button">✓ 已訓練，換下一次</button><button class="outline-button" id="sUndoTrained" type="button">↶ 撤銷最近完成</button><span id="sHint" class="v-footnote"></span></div></div></div>
+ <div class="section-heading"><h2>模擬機實際完成紀錄</h2></div><div id="sCompletionHistory" class="v-history"></div>
+ <div class="card" style="margin-top:16px"><h3>可用工具</h3><p><a href="https://www.flightgear.org/download/" target="_blank" rel="noopener noreferrer">FlightGear 免費飛行模擬器 ↗</a> · <a href="https://www.pilotest.com/en/tests/reddot" target="_blank" rel="noopener noreferrer">Pilotest Red dot 手眼追蹤 ↗</a>。手把尚未接上時可先理解控制概念，不假裝完成飛行操作。</p><p class="small muted">本站不會直接讀取手把輸入、飛行軌跡或儀表。所有數字由你提供，且只和相同機型、初始狀態及難度的訓練比較；不要將偏差數值當官方及格標準。</p></div>
+</section>
+<section id="ai" class="page">
+ <div class="eyebrow">05 / AI TRAINING LAB</div><h1 class="h1">AI 培訓專區 <span style="color:#2c9c8b">✦</span></h1><p class="lead">以下是你要求的獨立新聊天室初始指令。<strong>不包含英文、數學與物理</strong>；其餘各科以及最後階段的中英文面試，都有完整可複製指令。每個指令都能獨立使用，不依賴 ChatGPT 記得舊對話。</p>
+ <div class="callout" style="margin-bottom:16px"><b>使用方式：選科目 → 複製指令 → 開啟 ChatGPT 新聊天室 → 貼上開始訓練</b>建議每一科固定使用自己的聊天室，方便延續訓練紀錄。完成一次課程，可到「學習紀錄」記下實際時數。</div>
+ <div class="ai-layout">
+   <div class="ai-menu" id="aiMenu" role="tablist" aria-label="AI 初始指令科目"></div>
+   <div class="ai-panel">
+     <div class="ai-head"><div><div class="eyebrow" id="promptId"></div><h2 id="promptTitle"></h2><p id="promptDescription"></p></div><span class="tag teal" id="promptPeriod"></span></div>
+     <textarea class="prompt-box" id="promptText" aria-label="可複製的 AI 培訓初始指令" readonly></textarea>
+     <div class="ai-actions"><button type="button" class="solid-button" id="copyPrompt">▣ 複製完整指令</button><button type="button" class="outline-button" id="openChat">↗ 開啟 ChatGPT 新聊天室</button><button type="button" class="ghost-button" id="copyOpen">複製並開啟</button></div>
+     <div class="small muted">提示：新聊天室不會自動貼上剪貼簿文字，需要你手動按 Ctrl+V 貼上。ChatGPT 文字聊天不能直接讀取羅技手把數據或 FlightGear 儀表，除非你提供資訊或另外整合程式。</div>
+   </div>
+ </div>
+ <div class="section-heading"><h2>AI 訓練使用原則</h2></div>
+ <div class="two-col"><div class="card"><h3>正確的 AI 教練做法</h3><p>一次一題、等待作答後批改、對錯誤提供原因與下一輪練習，按表現調整難度。無法觀察的反應時間與飛行數據不得假裝已量測。</p></div><div class="card"><h3>人格與面試的界線</h3><p>適職評量不應學習「標準人格答案」。履歷／自傳由你本人撰寫，AI 只協助練習提問與提供回饋。</p></div></div>
+</section>
+<section id="journal" class="page">
+ <div class="eyebrow">06 / TRAINING LOGBOOK</div><h1 class="h1">學習紀錄</h1><p class="lead">用最簡單的方式記錄每次讀書內容與實際時間。資料保存在目前瀏覽器，不會自動同步到其他裝置。建議定期匯出備份。</p>
+ <div class="card"><h3>新增一筆訓練</h3><form id="logForm"><div class="formgrid"><label class="field">日期<input type="date" id="logDate" required></label><label class="field">科目<select id="logSubject" required></select></label><label class="field">時數（小時）<input type="number" id="logHours" min="0.25" max="12" step="0.25" value="1" required></label><label class="field">本次狀態<select id="logStatus"><option value="完成">完成</option><option value="需複習">需複習</option><option value="遇到困難">遇到困難</option></select></label></div><div class="field" style="margin:12px 0">本次內容／弱項（選填）<textarea id="logNote" maxlength="500" placeholder="例如：牛頓第二定律題目準確率 83%；下一次複習斜面受力分析。"></textarea></div><button type="submit" class="solid-button">＋ 儲存訓練紀錄</button></form></div>
+ <div class="section-heading"><h2>歷史紀錄</h2><span class="sub" id="journalTotal">目前0筆</span></div><div id="journalList" class="journal-list"></div>
+ <div class="section-heading"><h2>備份與還原</h2></div><div class="card"><p>所有月度勾選與學習日誌都存放在此裝置瀏覽器。若清除網站資料、換瀏覽器或改用手機，資料不會自動跟著移動。</p><div style="display:flex;gap:9px;flex-wrap:wrap;margin-top:12px"><button class="outline-button" id="exportBtn2">↓ 匯出 JSON 備份</button><button class="outline-button" id="importBtn">↑ 匯入 JSON 備份</button><button class="ghost-button" id="clearBtn" style="color:#ad5947">清除全部紀錄</button><input id="importFile" type="file" accept="application/json,.json" class="hide"></div></div>
+</section>
+<section id="resources" class="page">
+ <div class="eyebrow">07 / MATERIALS & NOTES</div><h1 class="h1">教材與重要提醒</h1><p class="lead">以官方免費資料及自行練習為主。考科與資格以報考當時航空公司最新公告為準。</p>
+ <div class="resources">
+   <a class="resource" href="https://www.evaair.com/zh-tw/about-eva-air/careers/job-openings/pilots/" target="_blank" rel="noopener noreferrer"><div><h3>長榮航空｜飛航員招募</h3><p>甄選流程、資格與英文要求</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.ets.org/toeic.html" target="_blank" rel="noopener noreferrer"><div><h3>ETS TOEIC</h3><p>多益官方測驗說明與練習資源</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.khanacademy.org/science/physics" target="_blank" rel="noopener noreferrer"><div><h3>Khan Academy Physics</h3><p>力學、電學等基礎物理概念</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.pilotest.com/en" target="_blank" rel="noopener noreferrer"><div><h3>Pilotest</h3><p>飛航潛質相關練習；非長榮正式題庫</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.flightgear.org/download/" target="_blank" rel="noopener noreferrer"><div><h3>FlightGear</h3><p>免費飛行模擬器，可搭配手把</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak" target="_blank" rel="noopener noreferrer"><div><h3>FAA PHAK</h3><p>飛行原理、操控、儀表、氣象等官方教材</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://www.schuhfried.com/en/" target="_blank" rel="noopener noreferrer"><div><h3>SCHUHFRIED</h3><p>維也納心理測驗系統官方資訊</p></div><span class="arrow">↗</span></a>
+   <a class="resource" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer"><div><h3>ChatGPT</h3><p>搭配本頁 AI 初始指令開始訓練</p></div><span class="arrow">↗</span></a>
+ </div>
+ <div class="section-heading"><h2>甄選、醫療與學習上的重要界線</h2></div>
+ <div class="stack"><div class="callout"><b>學科與非學科分開管理</b>數學、物理、英文考高不保證潛質測驗或 PAE 通過；認知遊戲的高分也不能換算為航空公司錄取率。</div><div class="callout"><b>航空知識是補充準備</b>長榮培訓飛航學員官方筆試列有適職評量、心算、數學、物理；航空專業知識未列為獨立筆試科目。但基本知識對模擬飛行、英文指令和面試有幫助。</div><div class="callout warning"><b>航空醫學諮詢獨立進行</b>既往病史與目前健康問題應交由正式航醫評估，不把體檢風險視為能靠讀書克服的項目，也不要為體檢自行停藥。</div></div>
+ <p class="footer-note">FLIGHTPATH 2027 · 私人自學規劃工具 · 不是長榮航空或任何航空測驗機構的官方產品 · 請自行核對最新考情。</p>
+</section>
+</div></main></div>
+
+<dialog class="install-dialog" id="installHelpDialog" aria-labelledby="installHelpTitle">
+ <div class="install-dialog-content">
+  <h2 id="installHelpTitle">安裝 FLIGHTPATH 2027</h2>
+  <p>安裝之後可從手機主畫面或電腦應用程式清單開啟；學習資料仍只儲存在當前裝置。</p>
+  <div class="install-steps">
+   <div class="install-step"><b>Android（Chrome）</b>打開正式網站 → 右上角 ⋮ →「安裝應用程式」或「加入主畫面」。</div>
+   <div class="install-step"><b>iPhone / iPad</b>在 Safari 開啟正式網站 → 分享 →「加入主畫面」。</div>
+   <div class="install-step"><b>電腦 Chrome / Edge</b>從網址列的安裝圖示，或瀏覽器選單選擇「安裝應用程式」。</div>
+  </div>
+  <p class="install-hint">首次開啟需連網，之後可離線使用已快取的主要畫面與紀錄。Pilotest 等外部測驗仍需要網路。若瀏覽器沒有提供安裝選項，請先確認網站透過 HTTPS 開啟。</p>
+  <button type="button" id="installHelpClose" class="solid-button" style="width:100%;margin-top:10px">知道了</button>
+ </div>
+</dialog>
+<div class="save-toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){'use strict';
+const STORAGE='flightpath-2027-user-v1';
+const months=[
+{key:'2026-10',title:'2026年10月',subtitle:'地基：掌握起點',check:'完成英文與數理基準測驗',tasks:[['數學','分數、比例、代數、方程式、函數、指數基礎'],['物理','物理量與單位、向量、直線運動、速度與加速度'],['英文','TOEIC L&R完整診斷一次；建立聽力與閱讀錯題本'],['心算','每日10分鐘：基本四則、進位退位、快速估算']]},
+{key:'2026-11',title:'2026年11月',subtitle:'力學與計算核心',check:'能自行分析基本受力問題',tasks:[['數學','三角函數、平面幾何、座標與基本函數圖形'],['物理','牛頓定律、受力分析、摩擦力、功與能量'],['英文','每週分項 TOEIC L&R 模考，整理高頻錯誤'],['心算','百分比、比例換算、分數與小數互換']]},
+{key:'2026-12',title:'2026年12月',subtitle:'第一輪學科檢查',check:'TOEIC 模考約800–850；數理基礎完整',tasks:[['數學','數列、指數對數、基礎機率及統計'],['物理','動量、碰撞、圓周運動、重力與流體基礎'],['英文','完整 TOEIC 模考；認識 Speaking / Writing 題型'],['檢核','整理12月學科弱項清單，更新第二季讀書順序']]},
+{key:'2027-01',title:'2027年1月',subtitle:'學科應用與英文輸出',check:'完成學科核心第一輪複習',tasks:[['數學','綜合應用題、英文數學敘述題、限時練習'],['物理','熱學、熱力學基礎、波動與聲音'],['英文','TOEIC Speaking/Writing 輸出練習及口說錄音'],['心算','計時混合四則，練習準確率優先']]},
+{key:'2027-02',title:'2027年2月',subtitle:'物理補齊與多益正式測驗',check:'完成物理主要單元，安排有效多益考試',tasks:[['物理','光學、靜電、電流、電路及電磁現象基礎'],['數理','開始混合英文題及限時測驗，分析錯誤原因'],['英文','依準備程度應考 TOEIC L&R，規劃 S/W 正式測驗'],['心算','加強百分比、時間速度距離與複合運算']]},
+{key:'2027-03',title:'2027年3月',subtitle:'學科達標與證照確認',check:'完成學科整體限時測驗；取得有效英文資格',tasks:[['英文','確認 L&R、S/W 有效成績；不足者補強並重考'],['數學','完整混合限時測驗；以陌生題確認穩定表現'],['物理','完整混合限時測驗；補上受力、能量、電學弱點'],['檢核','物理85–90%、數學90%左右作為自訂目標，非官方及格線']]},
+{key:'2027-04',title:'2027年4月',subtitle:'非學科能力基準',check:'建立認知、空間、注意力與追蹤表現的基準紀錄',tasks:[['維也納','建立 A–F 基準評估；按原時數每週約4次×45分鐘，先單任務再短雙任務'],['模擬機','確認 Logitech 手把輸入與軸向；單純雙軸追蹤'],['航空知識','四力、基本飛行原理、Pitch / Roll / Yaw'],['學科維持','每週保留英文、數學、物理、心算少量複習']]},
+{key:'2027-05',title:'2027年5月',subtitle:'規則切換、儀表控制',check:'兩任務維持穩定；掌握基本儀表閱讀',tasks:[['維也納','累積完成次數逐步提升：注意力、視聽記憶、規則切換與監控+記憶雙任務'],['模擬機','FlightGear平飛、姿態儀、航向、高度、空速'],['航空知識','飛行操縱面、失速、基本儀表與操作概念'],['航空英文','英語航向、高度、速度數字與簡單飛行指令']]},
+{key:'2027-06',title:'2027年6月',subtitle:'多工初階整合',check:'完成基本飛行＋英文指令的雙任務',tasks:[['維也納','依實際完成進度安排陌生題交叉驗證；由雙任務漸進三任務並記錄失誤恢復'],['模擬機','平飛、轉彎、爬升下降並監控其他儀表'],['航空英文','英語指令理解：heading、altitude、climb、descend'],['航空知識','基礎氣象、風與氣壓、飛航安全基本觀念']]},
+{key:'2027-07',title:'2027年7月',subtitle:'三任務與失誤恢復',check:'完成控制＋心算＋記憶三任務綜合練習',tasks:[['維也納','每週約3次×40分鐘：三任務、錯誤恢復，檢查單/雙/三任務差異'],['模擬機','飛行＋心算＋工作記憶；追蹤超調與高度航向偏差'],['航空英文','英語口頭指令、臨時變更指令及簡短回讀'],['學科維持','每週數理英文少量複習；整理面試經歷素材']]},
+{key:'2027-08',title:'2027年8月',subtitle:'AI 中英文面試啟動',check:'完成至少4次AI模擬面試與回饋',tasks:[['中文面試','用STAR整理真實經歷，練動機、合作、衝突、挫折'],['英文面試','ChatGPT擔任考官；即問即答、臨場追問與CRM情境'],['模擬機','持續英文指令、控制、心算與記憶整合'],['維也納','每四週保留陌生測驗；比對同條件數據，避免只熟悉固定題']]},
+{key:'2027-09',title:'2027年9月',subtitle:'全科整合與準備報考',check:'確認各項準備、資格與正式甄選資訊',tasks:[['數理英文','完成綜合限時測驗，確認證照有效、維持考試手感'],['非學科','完整認知測驗＋模擬飛行高負荷練習'],['中英文面試','進行正式情境模擬及追問，改善回答弱點'],['甄選準備','核對長榮當年度公告與醫療資格，不為湊滿一年延後報考']]}
+];
+const phases=[
+{name:'2026年10–12月｜基礎學科',desc:'英文、物理、數學為主，認知預習每週僅 15 分鐘',items:[['英文',3,'TOEIC L&R 恢復與基礎測驗'],['物理',3.5,'重建力學與基本概念'],['數學',2.25,'核心觀念與章節練習'],['心算',1,'固定短練習'],['維也納',0.25,'約 1 次 × 15 分鐘：注意力、記憶、空間輪替']]},
+{name:'2027年1–3月｜學科衝刺',desc:'英文證照＋高中數理限時測驗，認知預習維持低劑量',items:[['英文',2.5,'L&R、Speaking、Writing 正式應考'],['物理',3,'完成高中核心內容及英文題'],['數學',3,'混合應用與限時計時'],['心算',1,'提高穩定度與計算速度'],['維也納',0.5,'約 2 次 × 15 分鐘：反應、記憶、空間交叉']]},
+{name:'2027年4–6月｜非學科入門',desc:'恢復原計畫：認知 3 小時＋模擬機 2 小時 15 分鐘；保留學科複習',items:[['英文',1,'基本英語能力維持'],['物理',1,'複習弱項與基本公式'],['數學',1,'限時題維持'],['心算',0.75,'快速計算與準確率維持'],['維也納',3,'約 4 次 × 45 分鐘；單任務→雙任務'],['模擬機',2.25,'約 3 次 × 45 分鐘；手把、儀表、基本英文指令'],['航空知識與英文',1,'飛行原理與英語口令；必要時搭配操作學習']]},
+{name:'2027年7–9月｜甄選整合',desc:'恢復原計畫：認知降至 2 小時，模擬機增至 2.5 小時並納入面試',items:[['英文',1,'英文理解與口說維持'],['物理',0.5,'每週復習及錯題'],['數學',0.5,'每週復習及錯題'],['心算',0.5,'混合快速運算'],['維也納',2,'約 3 次 × 40 分鐘；多工、陌生題、恢復'],['模擬機',2.5,'約 3 次 × 50 分鐘；飛行＋英文指令＋負荷'],['航空知識與英文',1.5,'航空原理、氣象與口令；不與模擬機重複記時'],['中英文面試',1.5,'8月起主攻；7月先整理真實經歷']]}];
+const colors={'英文':'#3e6688','物理':'#6b8caf','數學':'#a1bbcb','心算':'#bbc1cc','維也納':'#438f85','模擬機':'#7ab5a5','航空知識與英文':'#bd9b6f','中英文面試':'#ab94b0'};
+const modules=[
+['01','英文','TOEIC L&R、Speaking、Writing、英文口說與聽力','最前期主科',['L&R個人目標850–900，S/W各160+','英文題型練習、弱項分析與正式測驗','後半年維持口說與英語理解']],
+['02','物理','力學、流體、熱學、波動、光學、電學','最前期主科',['核心公式背後的原理與使用限制','由中文觀念銜接英文敘述題','陌生限時題與錯題分類']],
+['03','數學','代數、函數、幾何、三角、數列、機率統計','最前期主科',['觀念 → 標準題 → 英文題 → 限時題','重點修正粗心與耗時題型','使用自訂正確率標準檢核']],
+['04','心算','快速且準確的四則、百分比、比例、時間距離','全期短練習',['每日10–15分鐘、小量持續','記錄錯誤種類，不捏造反應時間','從單題準確逐步轉向干擾情境']],
+['05','維也納','注意力、工作記憶、空間、反應、規則切換、多工','低劑量預習／4月主練',['10–12月每週約15分鐘、1–3月每週約30分鐘；不擠壓學科','4–6月約4×45分鐘，7–9月約3×40分鐘；每四週陌生題檢核','每次完成按已訓練才推進；保留實測成績、誤按與漏按','點擊下方按鈕進入完整維也納訓練專區']],
+['06','模擬機','Logitech 手把、儀表判讀、平穩控制、英文指令','4月正式投入',['4–6月每週2小時15分鐘（建議3×45分鐘）；基礎操控、儀表與英語指令','7–9月每週2小時30分鐘（建議3×50分鐘）；飛行+記憶/心算及錯誤恢復','保持單任務與多工對照；手動記錄偏差值，不捏造模擬機數據','點擊下方按鈕進入模擬機訓練專區']],
+['07','航空知識與英文','飛行原理、操縱面、儀表、氣象、基本航管詞彙','4月起輔助投入',['PHAK核心章節，不以完整17章為目標','聽懂航向、高度、速度等基本英文指令','不是長榮培訓學員官方獨立筆試主科']],
+['08','中英文面試','動機、STAR、CRM、團隊合作、情境題','8月起AI主攻',['分開進行中文、英文高擬真面試','即問即答、追問並提供具體回饋','經歷應真實；正式自傳由本人撰寫']]
+];
+const prompts=[
+{key:'mental',group:'核心訓練',title:'心算｜每日快速計算教練',period:'2026.10起',description:'15分鐘左右；一題一題出題、核對與記錄失誤。',text:`你現在是我的「台灣航空公司培訓機師心算訓練教練」。我預計2027年報考長榮培訓飛航學員，完全自學，英文、數學、物理另行準備。請幫我只訓練「心算」，不要把它變成高中數學課。\n\n教學規則：\n1. 第一次先以10題、由易到難的基準測驗判斷我在四則、百分比、分數、小數、比例、時間/速度/距離的弱項。\n2. 每日課程以約10–15分鐘為設計目標；每次只出一題，等我回答後再批改，禁止一開始把答案全部列出。\n3. 題目難度依我的實際正確率逐步調整，先求準確再求速度。每輪混合不同運算、正負數、百分比、時間換算，必要時加入容易粗心的干擾項。\n4. 絕對不能把錯誤答案判成正確；每次批改請重新驗算，附一種最有效率的心算技巧，並說明我的錯誤是哪一種類型。\n5. 若要測量秒數，請讓我自己計時並回報；你不能假裝已精確測到我的反應時間。\n6. 每堂結束請整理「題數、答對數、正確率、主要錯誤、下次重點」，並提供方便我複製到讀書日誌的單行紀錄。\n7. 每週提供一次交叉練習，加入部分沒看過的題型，避免只是背熟固定題庫。\n\n現在直接開始第1天的基準測驗。先說明規則，然後只給我第1題，等我作答。`},
+{key:'vienna',group:'核心訓練',title:'維也納｜認知能力與多工教練',period:'現在先練／2027.04正式',description:'A–F 六面向、逐題基準與每四週交叉測驗；搭配網站的維也納專區記錄。',text:`你是我的「培訓機師認知潛質自學教練」。我目標是台灣長榮航空培訓飛航學員，預計2027年甄選，不補習。我所說的「維也納」是指和航空潛質測驗相關的認知能力練習，並不代表你掌握民航局或長榮正式試題。\n\n請設計長期可執行、依完成次數推進的循序訓練，包括：\nA. 持續與選擇性注意（漏按、誤按概念）。\nB. 工作記憶：聽覺/視覺序列、倒背、延遲回憶。\nC. 空間判斷：方向、旋轉、視角轉換。\nD. 規則切換與處理速度。\nE. 多工：逐漸從單任務、雙任務到三任務；包含監控、記憶、簡單計算。\nF. 錯誤恢復與在多任務下維持穩定。\n\n執行規則：\n1. 先進行基準評估，逐題互動，不要一次公布答案。\n2. 依據我的實際作答記錄錯誤、漏題及主要弱項，不要憑主觀印象認定我高於多少百分位。\n3. 純文字介面無法精確模擬毫秒反應測驗、視覺追蹤或正式維也納硬體。遇到這類能力，請改給我在 Pilotest 或其他工具上的可執行任務，以及需要手動回報的數據，不要假裝已經測量。\n4. 每完成約四週的建議訓練次數安排一次熟悉題與陌生題交叉比較，也檢查相近正確率下的反應速度與多工退步幅度；沒有實測數據就標記未測。\n5. 不教我偽裝人格或猜測心理測驗的正確人格答案。\n6. 每次課後給我清楚的學習紀錄：日期、題型、正確率（有實際資料時）、錯誤型態、下次計畫。\n\n現在請先確認我目前可使用電腦、鍵盤、耳機與羅技手把，並開始第1天文字可執行的認知基準測驗。先只出一題，等我回答。網站自學表單只在我實際輸入數據後才計算正確率，Pilotest 綜合分數不能直接當成答題正確率。配合原本每週10小時的一年計畫：2026年10–12月每週約1次×15分鐘、2027年1–3月約2次×15分鐘、4–6月約4次×45分鐘、7–9月約3次×40分鐘。每週自由選日，未練不補欠課；按「已訓練」才換下一次。45分鐘建議分成暖身5、主項15、休息3、交叉17、紀錄5分鐘；40分鐘則為5、15、3、12、5分鐘。維也納和模擬機都已分配在每週10小時內，不能額外重複加計。交叉驗證依實際完成次數安排，不會因缺席而自動跳過，也不追加時數。熟悉題進步不代表陌生題也一定進步，不能由此推估正式甄選通過率。`},
+{key:'sim',group:'核心訓練',title:'模擬機｜Logitech 手把與 PAE 教練',period:'2027.04起',description:'以 FlightGear 為主；操作、儀表、英語指令及多工整合。',text:`你是我的「培訓機師 Pilot Aptitude Evaluation (PAE) 自學教練」。我預計2027年報考長榮培訓飛航學員，我不補習，手上有一隻 Logitech 雙類比搖桿手把，計畫使用免費 FlightGear。請只依據通用飛行操控及已公開的考生經驗安排訓練，不能宣稱知道長榮正式模擬機設備或固定考題。\n\n我需要循序訓練：\n1. 初期：控制器辨識、軸向與反轉、Pitch/Roll、小幅修正、雙軸追蹤。\n2. 基礎期：姿態儀、航向、高度、空速；平飛、轉彎、爬升/下降與儀表掃描。\n3. 進階期：依英文指令改變航向/高度，保持其他參數穩定。\n4. 整合期：飛行操作同時加入心算、數字記憶、口頭問答，練優先順序與錯誤恢復。\n\n每次請依2027年4–6月每次45分鐘、7–9月每次50分鐘，產出一份『任務卡』，包含：準備操作、初始飛行狀態、目標、依序下達的英文指令、成功指標、錯誤紀錄表。先教會再提高負荷。\n\n重要限制：你無法直接讀到我的 FlightGear 畫面、航向、高度或手把輸入，除非我提供截圖、錄影或程式讀數；因此請要求我手動回報，不可自行編造成績。\n\n在文字聊天中請先以文字逐條下指令；若使用者切換到支援語音的模式，再改以清楚、適當語速的英文語音帶練。先不要教複雜的客機FMC、冷艙啟動或完整航線程序。\n\n現在先問我 Logitech 手把型號、作業系統、FlightGear是否已安裝，然後給我第一堂具體設定與操作任務。`},
+{key:'aviation',group:'航空延伸',title:'航空知識｜PHAK 基礎教練',period:'2027.04起',description:'精讀和面試、模擬機相關的核心航空原理。',text:`你是我的「培訓飛航學員航空基礎知識教練」。第一志願是台灣長榮航空培訓飛航學員，預計2027年報考。我會另行學高中數學、物理和英文。請理解：長榮目前官方公開的培訓飛航學員筆試並沒有將航空專業知識列為獨立必考科目，所以這堂課定位是輔助面試、理解模擬機與未來受訓，不要過度擴張成完整ATPL/CPL課程。\n\n主要教材以FAA Pilot's Handbook of Aeronautical Knowledge (PHAK) 官方免費內容為基礎，優先主題：\n1. Four forces of flight、lift/drag/thrust/weight、stall。\n2. Pitch/Roll/Yaw、aileron/elevator/rudder、trim。\n3. Attitude/heading/altitude/airspeed 與基本儀表讀法。\n4. 基礎氣象：氣壓、風、亂流、雲、積冰。\n5. 航空安全、situational awareness、CRM和航空決策。\n6. 基本機場術語、跑道、空域與常見導航觀念。\n\n每堂約20–30分鐘，流程：先用繁體中文清楚解釋一個主題 → 提供標準英文術語 → 舉一個飛行實例 → 出5題逐題測驗 → 批改並做重點摘要。遇到涉及機型、程序或法規的內容，請註明資料來源與版本；不知道就說不知道，不要編造航空公司內部規定。\n\n避免硬背整本PHAK，並把重要英文名詞和中文概念對照。現在開始第1課：飛行中的四個力，先教學再逐題考我。`},
+{key:'aviation-en',group:'航空延伸',title:'航空英文｜口令與情境聽說教練',period:'2027.04起',description:'術語、航向高度指令、讀回、航空原理解釋。',text:`你是我的「航空英文與培訓機師口頭指令教練」。我預計2027年報考長榮培訓飛航學員；一般 TOEIC 英文另外準備。本課只訓練航空語境英語，不假裝可以取代正式飛航通訊訓練。\n\n請從基本到進階安排每日約15–20分鐘：\n1. 先學數字、航向、英尺、節、速度與高度等標準表達。\n2. 學會聽懂基本飛行指令：turn left/right heading、climb and maintain、descend、maintain speed 等。\n3. 短指令 → 多項指令 → 需記憶和回讀的指令。\n4. 能用簡潔英文解釋 lift、drag、stall、flight controls 等航空概念。\n5. 加入機師面試可能出現的英文情境表達，但正式面試另有專用課程。\n\n訓練規則：一次只出一段英文，等我回覆中文意思、英文回讀或口頭回答，再提供正確版本和差異。重要航空用語請標示英文原文和繁體中文解釋。若可使用語音模式，請優先用英文語音發出指令並讓我作答；在純文字模式下不可宣稱已播放音訊或精確評估發音。使用正確航空數字讀法，但不要捏造某航空公司的內部通訊規則。\n\n現在從基本高度、航向與速度指令開始，先給我一個簡短入門測驗。`},
+{key:'personality',group:'面試與適職',title:'適職人格｜自我認識與情境判斷',period:'2027.07起',description:'練思考與回饋，不背人格測驗的標準答案。',text:`你是我的「飛航學員適職評量與自我認識教練」。我準備長榮培訓機師甄選。請協助我了解自己的工作風格、情緒調節、盡責性、合作、風險判斷及接受回饋的習慣。\n\n關鍵原則：\n1. 不要提供『航空公司偏好的人格答案』、不教我刻意偽裝人格或騙過心理測驗。\n2. 用真實工作情境討論，例如時間壓力、團隊衝突、提出安全疑慮、承認錯誤、受到批評。\n3. 每次提出一個情境，讓我先描述真實想法和做法，再協助分析優點、可能盲點與可練習的具體行為。\n4. 不能從聊天就替我診斷心理疾病或宣稱我通過正式適職測驗。\n5. 不給制式的完美回答；鼓勵具體、誠實、自我反省與可訓練的改善計畫。\n6. 每次結束產出一份簡短的『行為改善筆記』，讓我帶進工作實際執行。\n\n現在先透過三個真實工作情境了解我的決策與溝通風格。一次只問一個情境。`},
+{key:'interview-zh',group:'面試與適職',title:'中文面試｜主管情境模擬',period:'2027.08起',description:'履歷經歷、STAR、CRM、安全意識與連續追問。',text:`你現在是長榮培訓飛航學員的『中文主管面試模擬考官』，請根據公開的航空公司招募資訊與一般飛航職能進行練習，不能冒充長榮內部考官或聲稱掌握保密評分標準。\n\n我的背景：台灣大學會計相關學歷，現有都市更新／建設相關工作經驗，轉職目標是培訓機師。我的正式履歷和自傳會由我本人撰寫；你只能協助面試練習與指出內容不清楚的地方，不要替我捏造工作經歷。\n\n面試範圍：Why Pilot、Why EVA、為何從會計及都更轉職、壓力、挫折、承認錯誤、團隊合作、CRM、航安優先、與機長意見衝突、接受批評、學習能力。請以STAR檢驗真實案例。\n\n規則：\n1. 採真實面試形式，一次只問一題；我回答後再追問，不要提前給出示範答案。\n2. 每回合至少有一次深入追問，尤其追查具體行動和結果。\n3. 一輪約8–12題後再提供整體回饋，包括結構、具體性、誠實性、合作、航安與可訓練性。\n4. 對邏輯問題、空泛說法與過度自信要明確指出；但別不必要地挑文法。\n5. 如果我問到未公開的長榮評分、考官偏好或錄取率，請如實說明不確定，不能瞎猜。\n\n現在請直接用中文開始模擬面試的第一題。`},
+{key:'interview-en',group:'面試與適職',title:'英文面試｜Cadet Pilot Interview',period:'2027.08起',description:'英文即問即答、壓力追問、CRM、清楚有邏輯。',text:`You are my English-language cadet pilot interview coach and mock interviewer. I plan to apply for EVA Air's cadet pilot program in Taiwan in 2027. My background includes accounting education at National Taiwan University and work in urban renewal / property development. Do not invent personal achievements or claim you know EVA Air's confidential interview questions or scoring criteria.\n\nOur goals are clear, natural spoken English, strong reasoning, professional communication, teamwork, safety judgment, and trainability — not memorized perfect scripts.\n\nRules:\n1. Conduct a realistic one-on-one interview entirely in English, asking ONE question at a time and waiting for my response.\n2. Include Why pilot, Why EVA, career change, teamwork, mistakes, receiving feedback, stress, CRM, speaking up to a captain, and safety decisions.\n3. Ask natural, progressively challenging follow-up questions based on what I actually said.\n4. Do not interrupt every answer to correct minor grammar. Prioritize clarity, meaning, logic, and whether my answer addresses the question.\n5. After 8–12 questions, provide a structured review in Traditional Chinese: strengths, weak points, clarity, evidence, teamwork/safety judgment, and three targeted exercises.\n6. Never fabricate official scores, passing thresholds, or the probability of my acceptance.\n7. If voice conversation is available, act as a live interviewer; otherwise text-based interview is fine.\n\nStart immediately with your first English interview question. No sample answer before I respond.`}
+];
+let state;try{state=JSON.parse(localStorage.getItem(STORAGE)||'{}')}catch(e){state={}}if(!state||typeof state!=='object')state={};if(!state.checked||typeof state.checked!=='object')state.checked={};if(!Array.isArray(state.logs))state.logs=[];
+function save(){try{localStorage.setItem(STORAGE,JSON.stringify(state))}catch(e){toast('目前無法儲存，請檢查瀏覽器權限')}}
+let toastTimer;function toast(message){const t=document.getElementById('toast');t.textContent=message;t.classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('visible'),2500)}
+function safeText(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+const pages={dashboard:'總覽儀表板',timeline:'12個月讀書計畫',weekly:'每週時數分配',modules:'八大科目與目標',vienna:'維也納認知訓練',sim:'模擬機訓練',ai:'AI 培訓專區',journal:'學習紀錄',resources:'教材與說明'};
+function navigate(v){if(!pages[v])return;document.querySelectorAll('.page').forEach(x=>x.classList.toggle('active',x.id===v));document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===v);if(b.tagName==='BUTTON')b.setAttribute('aria-current',b.dataset.view===v?'page':'false')});document.getElementById('topPageTitle').textContent=pages[v];window.scrollTo({top:0,behavior:'instant'});if(location.hash!==`#${v}`){history.replaceState(null,'',`#${v}`)}}
+document.addEventListener('click',e=>{const a=e.target.closest('[data-view],[data-goto]');if(a){navigate(a.dataset.view||a.dataset.goto)}});
+function monthCard(m,i){let items=m.tasks.map(([subject,detail],j)=>{const checked=!!state.checked[`${m.key}-${j}`];return `<label class="task ${checked?'done':''}"><input type="checkbox" data-task="${m.key}-${j}" ${checked?'checked':''}><span><b>${safeText(subject)}：</b>${safeText(detail)}</span></label>`}).join('');let complete=m.tasks.filter((_,j)=>state.checked[`${m.key}-${j}`]).length;return `<article class="month-card ${complete===m.tasks.length?'completed':''}" data-month="${m.key}"><button class="month-head" type="button" aria-expanded="false"><div><span class="month-index">MONTH ${String(i+1).padStart(2,'0')}</span><h3>${m.title}</h3><p>${m.subtitle}</p></div><span class="month-arrow">⌄</span></button><div class="month-progress"><span style="width:${complete/m.tasks.length*100}%"></span></div><div class="month-body"><div class="task-list">${items}</div><div class="month-note"><b>月度檢查：</b>${m.check}<br><b class="month-completion">已完成 ${complete}/${m.tasks.length} 項</b></div></div></article>`}
+function renderMonths(){['m2026','mq1','mq2','mq3'].forEach((id,i)=>{document.getElementById(id).innerHTML=months.slice(i*3,i*3+3).map((m,j)=>monthCard(m,i*3+j)).join('')});const currentMonth=(new Date()).toISOString().slice(0,7);const c=document.querySelector(`[data-month="${currentMonth}"]`);if(c)openMonth(c)}
+function openMonth(card){const isOpen=card.classList.toggle('open');card.querySelector('.month-head').setAttribute('aria-expanded',String(isOpen))}
+document.getElementById('timeline').addEventListener('click',e=>{const b=e.target.closest('.month-head');if(b)openMonth(b.closest('.month-card'))});
+document.getElementById('timeline').addEventListener('change',e=>{const c=e.target.closest('input[data-task]');if(!c)return;state.checked[c.dataset.task]=c.checked;save();c.closest('label').classList.toggle('done',c.checked);const m=c.closest('.month-card');const inputs=[...m.querySelectorAll('input[data-task]')];const count=inputs.filter(x=>x.checked).length;m.querySelector('.month-progress span').style.width=(100*count/inputs.length)+'%';m.querySelector('.month-completion').textContent=`已完成 ${count}/${inputs.length} 項`;m.classList.toggle('completed',count===inputs.length);updateDashboard();toast('進度已儲存')});
+function updateDashboard(){const all=months.reduce((a,m)=>a+m.tasks.length,0);const done=months.reduce((a,m)=>a+m.tasks.filter((_,j)=>state.checked[`${m.key}-${j}`]).length,0);const pct=Math.round(done/all*100);document.getElementById('statPercent').textContent=pct+'%';document.getElementById('statTaskCount').textContent=`${done} / ${all} 個檢查點`;document.getElementById('progressTxt').textContent=pct+'%';document.getElementById('progressFill').style.width=pct+'%';const sum=state.logs.reduce((a,b)=>a+(Number(b.hours)||0),0);document.getElementById('statHours').innerHTML=(Math.round(sum*100)/100).toLocaleString('zh-TW')+' <span style="font-size:14px">h</span>';document.getElementById('statSession').textContent=`${state.logs.length} 次訓練`}
+let phaseIndex=0;function phaseTime(h){const m=Math.round(h*60),hrs=Math.floor(m/60),mins=m%60;return `${hrs?hrs+' 小時':''}${hrs&&mins?' ':''}${mins?mins+' 分鐘':''}`||'0 分鐘'}
+function renderPhases(){
+ const el=document.getElementById('phaseTabs');el.innerHTML=phases.map((p,i)=>`<button class="tab ${phaseIndex===i?'active':''}" data-phase="${i}">${['10–12月','1–3月','4–6月','7–9月'][i]}</button>`).join('');
+ const p=phases[phaseIndex];document.getElementById('phaseName').textContent=p.name;document.getElementById('phaseDescription').textContent=p.desc;
+ document.getElementById('hourBar').innerHTML=p.items.map(([subject,h])=>`<span style="width:${h*10}%;background:${colors[subject]}" title="${subject}：${phaseTime(h)}"></span>`).join('');
+ document.getElementById('hourLegend').innerHTML=p.items.map(([subject,h])=>`<span><i style="background:${colors[subject]}"></i>${subject} ${phaseTime(h)}</span>`).join('');
+ document.getElementById('hourRows').innerHTML=p.items.map(([subject,h,detail])=>`<tr><td><b>${subject}</b></td><td class="hours">${phaseTime(h)}</td><td>${detail}</td></tr>`).join('');
+ const allocations=phases[phaseIndex].items;const v=allocations.find(x=>x[0]==='維也納')?.[1]||0,sim=allocations.find(x=>x[0]==='模擬機')?.[1]||0,others=10-v-sim;
+ const vFreq=['1次×15分','2次×15分','4次×45分','3次×40分'][phaseIndex],sFreq=['未安排','未安排','3次×45分','3次×50分'][phaseIndex];
+ document.getElementById('phaseFlexibleRows').innerHTML=`<tr><td><b>維也納認知訓練</b></td><td>建議每週 ${vFreq}；完成才換卡</td><td class="hours">${phaseTime(v)}</td></tr><tr><td><b>模擬機 FlightGear</b></td><td>${phaseIndex<2?'先以主科優先，不強制練飛行':`建議每週 ${sFreq}；儀表與操控循序練習`}</td><td class="hours">${phaseTime(sim)}</td></tr><tr><td><b>其餘科目</b></td><td>按上方英文、數理、心算、航空知識及面試比例</td><td class="hours">${phaseTime(others)}</td></tr><tr><td><b>合計</b></td><td>自由選日，沒有補課債務</td><td class="hours">10 小時</td></tr>`;
+}
+document.getElementById('phaseTabs').addEventListener('click',e=>{const b=e.target.closest('[data-phase]');if(b){phaseIndex=+b.dataset.phase;renderPhases()}});
+function renderModules(){document.getElementById('modulesGrid').innerHTML=modules.map(([n,name,desc,when,items])=>`<article class="module-card"><div class="module-top"><span class="module-number">${n}</span><div style="flex:1"><h3>${name}</h3><div class="desc">${desc}</div></div><span class="tag">${when}</span></div><ul>${items.map(i=>`<li>${safeText(i)}</li>`).join('')}${name==='維也納'?'<li><button class="outline-button" style="margin-top:8px" type="button" data-goto="vienna">進入完整維也納訓練專區 →</button></li>':name==='模擬機'?'<li><button class="outline-button" style="margin-top:8px" type="button" data-goto="sim">進入模擬機訓練專區 →</button></li>':''}</ul></article>`).join('')}
+let promptIndex=0;function renderPromptMenu(){const parent=document.getElementById('aiMenu');parent.innerHTML='';let last='';prompts.forEach((p,i)=>{if(p.group!==last){const s=document.createElement('div');s.className='ai-cat';s.textContent=p.group;parent.appendChild(s);last=p.group}const btn=document.createElement('button');btn.type='button';btn.className=promptIndex===i?'active':'';btn.setAttribute('role','tab');btn.setAttribute('aria-selected',String(promptIndex===i));btn.innerHTML=`<span>${safeText(p.title.split('｜')[0])}</span><span style="font-size:11px;color:#78929a">↗</span>`;btn.addEventListener('click',()=>{promptIndex=i;renderPromptMenu();renderPrompt()});parent.appendChild(btn)})}
+function renderPrompt(){const p=prompts[promptIndex];document.getElementById('promptId').textContent=`AI TRAINER ${String(promptIndex+1).padStart(2,'0')} / ${String(prompts.length).padStart(2,'0')}`;document.getElementById('promptTitle').textContent=p.title;document.getElementById('promptDescription').textContent=p.description;document.getElementById('promptPeriod').textContent=p.period;document.getElementById('promptText').value=p.text}
+async function copyCurrent(){const val=document.getElementById('promptText').value;let ok=false;try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(val);ok=true}}catch(e){}if(!ok){const area=document.getElementById('promptText');area.focus();area.select();try{ok=document.execCommand('copy')}catch(e){}area.setSelectionRange(0,0);area.blur()}toast(ok?'完整指令已複製，貼入新聊天室即可':'複製受瀏覽器限制，請點文字框全選後手動複製');return ok}
+document.getElementById('copyPrompt').addEventListener('click',copyCurrent);document.getElementById('openChat').addEventListener('click',()=>window.open('https://chatgpt.com/','_blank','noopener,noreferrer'));document.getElementById('copyOpen').addEventListener('click',()=>{const w=window.open('https://chatgpt.com/','_blank','noopener,noreferrer');copyCurrent();if(!w)toast('指令複製中；新視窗可能遭阻擋')});
+
+// ── A–F recognition and simulator training queues: pace by completed sessions, not calendar checkboxes. ──
+if(!state.vienna||typeof state.vienna!=='object')state.vienna={};
+if(!state.vienna.devices||typeof state.vienna.devices!=='object')state.vienna.devices={};
+if(!Array.isArray(state.vienna.records))state.vienna.records=[];
+if(!Array.isArray(state.vienna.sessions))state.vienna.sessions=[];
+if(!state.sim||typeof state.sim!=='object')state.sim={};
+if(!Array.isArray(state.sim.sessions))state.sim.sessions=[];
+const vStageDefs=[
+ {id:'base',name:'2026/10–12',start:'2026-10-11',end:'2026-12-31',minutes:15,perWeek:1},
+ {id:'sprint',name:'2027/1–3',start:'2027-01-01',end:'2027-03-31',minutes:15,perWeek:2},
+ {id:'foundation',name:'2027/4–6',start:'2027-04-01',end:'2027-06-30',minutes:45,perWeek:4},
+ {id:'integration',name:'2027/7–9',start:'2027-07-01',end:'2027-09-30',minutes:40,perWeek:3}
+];
+const sStageDefs=[
+ {id:'foundation',name:'2027/4–6',start:'2027-04-01',end:'2027-06-30',minutes:45,perWeek:3},
+ {id:'integration',name:'2027/7–9',start:'2027-07-01',end:'2027-09-30',minutes:50,perWeek:3}
+];
+const vLinks={
+ reaction:['CUT-E Reaction rate','https://www.pilotest.com/en/tests/reactionrate'],
+ three:['E with three dots','https://www.pilotest.com/en/tests/e_with_three_dots'],
+ moving:['Moving dots','https://www.pilotest.com/en/tests/movingdots'],
+ running:['Running memory span','https://www.pilotest.com/en/tests/running_memory'],
+ visual:['Visual memory','https://www.pilotest.com/en/tests/visual_memory'],
+ cubes:['Rotating cubes','https://www.pilotest.com/en/tests/cuberotating'],
+ rot:['DLR Cube rotation','https://www.pilotest.com/en/tests/cuberotation'],
+ red:['Red dot','https://www.pilotest.com/en/tests/reddot'],
+ compass:['COMPASS Multitasking','https://www.pilotest.com/en/tests/data_multitask'],
+ multi:['Multitasking with instruments','https://www.pilotest.com/en/tests/multitasking_with_instruments'],
+ global:['Global Multitasking','https://www.pilotest.com/en/tests/multitasking']
+};
+// A step can be repeated on the next cycle with different stimuli. We deliberately avoid assigning pilot-selection percentiles.
+const vTasks={
+ base:[
+  {title:'A 注意力與反應基準',kind:'A 注意力',links:['reaction'],parts:['先做一次 Reaction rate；只記錄網站實際顯示的綜合分、等級或反應時間。','檢查是否因看錯圖形而誤按；避免連續刷最高分。']},
+  {title:'B 工作記憶預習',kind:'B 工作記憶',links:['running'],parts:['耳機可用時做 Running memory span；若不便開聲音，用 AI 做文字倒背短序列。','寫下順序顛倒、遺漏或提前回答的狀況。']},
+  {title:'C 空間旋轉預習',kind:'C 空間判斷',links:['cubes'],parts:['做 Rotating cubes 一輪；當輪較長時可只做此項。','整理一次方向或展開圖判斷錯誤。']},
+  {title:'A 注意抗干擾',kind:'A 注意力',links:['three'],parts:['做 E with three dots 一輪；注意目標與干擾物的區別。','記錄誤按與漏判，不自行推算毫秒數。']},
+  {title:'交叉檢核：陌生形式',kind:'混合／陌生題',links:['moving','rot'],parts:['從較少練的 Moving dots 或 DLR Cube rotation 選一項測試。','保留首次結果，比對熟悉任務與陌生任務的錯誤型態。']}
+ ],
+ sprint:[
+  {title:'A 注意抑制／較難刺激',kind:'A 注意力',links:['three','reaction'],parts:['選其中一項做一次有記錄的測試。','對比另一規則的表現，找出搶按、看錯或漏判。']},
+  {title:'B 聽覺與視覺記憶',kind:'B 工作記憶',links:['running','visual'],parts:['從聽覺或視覺序列擇一測試，下一輪換另一種。','記錄能完整回憶的序列以及順序錯誤。']},
+  {title:'C 方位／視角改變',kind:'C 空間判斷',links:['rot','cubes'],parts:['從心智旋轉題型選一種，不以題目熟悉度推論能力。','檢查前後左右與順逆時針混淆。']},
+  {title:'D 規則切換初階',kind:'D 規則切換',links:['moving','reaction'],parts:['先做一種辨識規則，再換成另一種刺激或由 AI 建立規則交替文字題。','只在工具有提供計時的情況填速度。']},
+  {title:'陌生題與錯誤恢復',kind:'F 錯誤恢復',links:['visual','three'],parts:['選當月較少練的題型，先不熟悉規則外的額外提示。','觀察失誤後是否連錯；記錄改善方法。']}
+ ],
+ foundation:[
+  {title:'A 反應抑制與基準',kind:'A 注意力',links:['reaction','three'],parts:['5分暖身後完成單任務注意力測驗。','休息後換刺激形式，記錄誤按與漏按。']},
+  {title:'B 聽覺／視覺記憶',kind:'B 工作記憶',links:['running','visual'],parts:['先做一個短期記憶測驗，再換另一感官序列。','看是否為順序、保持時間或分心導致錯誤。']},
+  {title:'C 立體旋轉與方位',kind:'C 空間判斷',links:['cubes','rot'],parts:['一輪展開圖判斷，交叉練習另一類的語音／文字旋轉指令。','針對左右、前後和視角錯誤分開記。']},
+  {title:'D 規則切換與速度',kind:'D 規則切換',links:['moving','three'],parts:['用一種固定規則熱身，換刺激形式後再測一次。','比較切換後錯誤，避免只追求速度。']},
+  {title:'A 動態監控與長時間穩定',kind:'A 注意力',links:['moving','reaction'],parts:['選動態監控題，維持穩定注意力。','錯誤後按原規則回穩；避免連續錯誤。']},
+  {title:'E 雙任務試探：監控＋記憶',kind:'E 多工',links:['compass'],parts:['先用前次單任務資料作參考，再嘗試 COMPASS 雙任務。','各子任務無法獨立報分就註記未知，不亂算總正確率。']},
+  {title:'E 儀表多工入門',kind:'E 多工',links:['multi'],parts:['使用 Multitasking with instruments 做一次短回合（依平台規則）。','明確記錄最常忽略的子任務、是否有持續追蹤失敗。']},
+  {title:'F 雙任務錯誤恢復',kind:'F 錯誤恢復',links:['compass','three'],parts:['先測一輪低負荷單任務，再進入雙任務。','嘗試失誤後回到主目標，不因急於補救而連錯。']}
+ ],
+ integration:[
+  {title:'E 三任務：控制＋記憶＋監控',kind:'E 多工',links:['global'],parts:['先確認手把、耳機、數字鍵盤已連接。','試做 Global Multitasking 一輪，分別檢查追蹤、視覺記憶與聽覺監控。','負荷太高退回雙任務；只記錄平台有顯示的數據。']},
+  {title:'F 在干擾後穩定復原',kind:'F 錯誤恢復',links:['multi','three'],parts:['從單任務快速基準開始，再做一次多工。','觀察漏按、過度補償與連錯，整理中斷後回穩策略。']},
+  {title:'A+B 保持精度：注意＋短期記憶',kind:'混合／陌生題',links:['running','reaction'],parts:['分別做聽覺記憶及反應任務，注意疲勞造成的誤差。','隔次以陌生刺激比較；不把不同題目的平台等級直接比較。']},
+  {title:'E 監控＋心算＋記憶',kind:'E 多工',links:['multi','global'],parts:['先熟悉子任務，再做並行多工；只在同工具支援時真正同時進行。','記下哪個子任務最先退化，以及優先處理策略。']},
+  {title:'C+D 空間與規則轉換',kind:'C 空間判斷',links:['rot','cubes'],parts:['切換空間題刺激和方向規則，至少保留一次新的題目版本。','檢查左右混淆、思考卡住與規則錯置。']}
+ ]
+};
+const vAudit={title:'四週交叉驗證：熟悉題與陌生題',kind:'混合／陌生題',links:['reaction','moving','visual'],parts:['選上次有數據的熟悉任務，以相近條件完成一次。','再選很少做或規則改變的測驗，以首次結果當交叉觀察點。','比較同題型正確率／誤按／漏按；不得將平台綜合分當準確率。','提出下一階段要換的刺激或要減輕的負荷。']};
+const sTasks={
+ foundation:[
+  {title:'手把辨識與軸向校正',goal:'確認 Pitch/Roll 不反向；讓飛機對小幅指令可預期反應',parts:['FlightGear 用天氣穩定、日間、可重現的單發訓練機初始狀態（例如 Cessna 172），儲存起點。','在設定中逐一確認搖桿輸入、死區、俯仰、滾轉、必要按鍵。','先不加入複雜航線或心算；錄下軸向有無反轉與過度修正。']},
+  {title:'小幅 Pitch/Roll 控制',goal:'少量、緩慢修正，減少過度操控',parts:['先確認控制器正常；小幅改變俯仰和坡度，再回到原姿態。','看姿態儀與機外地平線，注意停手後的滯後。','記錄操控方向混淆、反覆超調、是否能停止不必要的修正。']},
+  {title:'平飛控制與儀表掃描',goal:'保持水平姿態及穩定空速，建立循環掃描',parts:['固定一個基準高度和目標航向，練穩定平飛。','固定順序掃描姿態、航向、高度、空速，不只盯一個表。','記最大高度/航向/空速偏差，若無實測設備留空。']},
+  {title:'基本轉彎：轉入與回正',goal:'小坡度轉彎並不過度修正',parts:['平飛起始，練左右小角度轉彎後回到平飛。','維持儀表掃描，避免持續看單一數值。','記左轉與右轉差異、超調原因。']},
+  {title:'高度變更：爬升與下降',goal:'簡單高度變更後回到平穩狀態',parts:['用小幅度姿態變更完成爬升或下降。','靠近目標高度提早回平；確認速度與航向。','記錄高度目標偏差與回穩過程。']},
+  {title:'英文口令：heading',goal:'聽懂航向並先設定目標再操控',parts:['先以文字/錄音輸入 Heading 090、Turn left heading 180 等簡單指令（僅練習用）。','逐一完成回讀、改航向、回平，不同時加心算。','記完成指令數與因聽錯造成的偏差。']},
+  {title:'英文口令：altitude',goal:'聽懂 climb/descend 指令並維持其他參數',parts:['以簡單英語高度指令練改變高度與回讀。','監控航向、空速，不因盯高度而忽略其他表。','記錄回讀正確與偏差，錯誤先穩定操控再修正。']},
+  {title:'姿態＋口令雙任務',goal:'維持平飛／簡單轉彎並處理一條英文指令',parts:['先在無口令下練一輪控制，作為單任務對照。','再由自己預設或他人/AI下達簡單口令；避免不受控的頻繁打斷。','比較加入指令前後的航向、高度偏差及回穩情況。']}
+ ],
+ integration:[
+  {title:'航向與高度複合操作',goal:'收到兩項指令，依序穩定完成，不連續超調',parts:['先用短口令依序變更航向與高度，避免追求快速大幅操控。','用固定掃描順序檢查姿態、空速、航向、高度。','記錄每項指令成功數及最大偏差。']},
+  {title:'飛行＋簡單心算',goal:'不中斷基本操控前提下處理簡單數字',parts:['先完成相同飛行任務的單任務基準。','再用事先準備的簡單四則題加入低頻干擾；疲勞時降低負荷。','記心算正確與否，以及飛行偏差有無增加。']},
+  {title:'飛行＋工作記憶',goal:'持續監控並延遲回憶簡短數字',parts:['平飛基準後，加入一段短數字序列，稍後再回憶。','記住序列時仍進行儀表掃描；不只顧背數字。','記錄序列正確與飛行操控偏差。']},
+  {title:'三任務：操控＋記憶＋口令',goal:'把首要操控穩定擺前面，減少漏接指令',parts:['先做兩任務基準，確認大致穩定才加入第三項。','進行低頻英文口令＋短數字回憶，避免同時塞過量刺激。','失誤後先回復姿態與基本掃描，再處理次要事項。']},
+  {title:'臨時變更與錯誤恢復',goal:'遇到任務改變仍能穩定回到目標',parts:['準備幾條未知順序的安全範圍內簡單口令。','遇到改指令時先確認新目標，再平穩調整。','統計明顯超調與需要重新確認口令的次數。']},
+  {title:'陌生操作組合交叉檢查',goal:'跨版本比較，而不只是熟悉固定路線',parts:['換一組合理的新航向／高度任務，但保持機型與天氣相同。','比較同一種操作在熟悉與新指令中的控制偏差。','明確記下仍不熟悉的操控；調整下一輪基礎練習比例。']}
+ ]
+};
+let vSelectedStage='base',sSelectedStage='foundation';
+function stageNow(defs){const day=todayLocal();return defs.find(x=>day>=x.start&&day<=x.end)?.id||(day<defs[0].start?defs[0].id:defs[defs.length-1].id)}
+function stageDefinition(defs,id){return defs.find(x=>x.id===id)||defs[0]}
+function normalizedVStage(x){if(vStageDefs.some(a=>a.id===x.phase))return x.phase;if(x.phase==='prep')return String(x.date||'')>='2027-01-01'?'sprint':'base';if(x.phase==='standard')return String(x.date||'')>='2027-07-01'?'integration':'foundation';return 'base'}
+function vSessions(id){return state.vienna.sessions.filter(x=>x&&normalizedVStage(x)===id)}
+function sSessions(id){return state.sim.sessions.filter(x=>x&&x.stage===id)}
+function dWeekRange(date){const d=new Date(date+'T12:00:00');const first=new Date(d);first.setDate(d.getDate()-((d.getDay()+6)%7));const fmt=x=>`${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;const last=new Date(first);last.setDate(first.getDate()+6);return [fmt(first),fmt(last)]}
+function weekCount(sessions){const [start,end]=dWeekRange(todayLocal());return sessions.filter(x=>x.date>=start&&x.date<=end).length}
+function chooseV(stage){const completed=vSessions(stage).length;const tasks=vTasks[stage];const current=vStageDefs.find(x=>x.id===stage);
+ // One cross-task audit replaces the last planned lesson in each block of four weeks worth of *completed* sessions.
+ // If no training happened, the task never jumps ahead on its own.
+ const block=current.perWeek*4,auditDue=completed>0&&(completed+1)%block===0,cycle=Math.floor(completed/block)+1;
+ return {task:auditDue?vAudit:tasks[completed%tasks.length],auditCycle:auditDue?cycle:null,ordinal:completed+1};
+}
+function vDeviceText(){const n=Object.values(state.vienna.devices).filter(Boolean).length;document.getElementById('vReadyText').textContent=`已勾選 ${n}/4 項；僅為手動確認，非設備偵測。`}
+function vMakeTask(){const stage=vSelectedStage,conf=stageDefinition(vStageDefs,stage),history=vSessions(stage),info=chooseV(stage),task=info.task,count=weekCount(history),active=stageNow(vStageDefs)===stage;
+ document.getElementById('vPhaseTabs').innerHTML=vStageDefs.map(x=>`<button type="button" class="tab ${x.id===stage?'active':''}" data-v-phase="${x.id}" aria-pressed="${x.id===stage}">${x.name}</button>`).join('');
+ document.getElementById('vSessionStats').innerHTML=`<span>本階段完成 ${history.length} 次</span><span>本週完成 ${count} / 建議 ${conf.perWeek} 次</span><span>每次建議 ${conf.minutes} 分</span><span>第 ${info.ordinal} 次</span>`;
+ document.getElementById('vScheduleStatus').innerHTML=`<p>階段範圍：${conf.start} 至 ${conf.end}；建議每週 ${conf.perWeek} 次、共 ${conf.perWeek*conf.minutes} 分鐘。<b>訓練額度是建議，不是強制限制。</b>本週少做不補欠課；只有按完成才前進。${active?'':'目前是其他月份階段，此處可預覽過去／未來任務。'}</p>`;
+ const links=task.links.map(x=>`<a href="${vLinks[x][1]}" target="_blank" rel="noopener noreferrer">${safeText(vLinks[x][0])} ↗</a>`).join('　');
+ const allocation=conf.minutes===15?'2分準備＋10分練習＋3分回顧':conf.minutes===45?'5分暖身＋15分主項＋3分休息＋17分交叉＋5分檢討':'5分暖身＋15分主項＋3分休息＋12分交叉＋5分檢討';
+ document.getElementById('vTaskBox').innerHTML=`<span class="tag teal">${info.auditCycle!==null?'每四週陌生題檢核':safeText(task.kind)}</span><h3>第 ${info.ordinal} 次｜${safeText(task.title)}</h3><p><b>時間：</b>${conf.minutes} 分鐘（${allocation}）</p><p><b>工具：</b>${links}</p><ol>${task.parts.map(p=>`<li>${safeText(p)}</li>`).join('')}</ol><p class="small muted">只需完成這次內容並按「已訓練」，不會因為隔了幾天沒練而自動跳下一張。</p>`;
+ document.getElementById('vMarkTrained').disabled=!active;document.getElementById('vUndoTrained').disabled=!history.length;
+ document.getElementById('vSessionHint').textContent=active?'有空就練，按完成才繼續；按鈕不鎖週次，但建議不要用連續刷題取代分散練習。':'其他階段僅供預覽，請到目前階段完成。';
+ document.getElementById('vCompletionHistory').innerHTML=state.vienna.sessions.length?state.vienna.sessions.slice().reverse().slice(0,12).map(x=>`<div class="v-history-item"><span>${safeText(x.date)}　${safeText(x.title)}</span><span>${x.minutes==null?'未填時數':safeText(x.minutes)+'分鐘'} ${safeText(x.note||'')}</span></div>`).join(''):'<div class="empty-state">尚未完成認知訓練。已訓練才會加入紀錄。</div>';
+}
+function vInit(){vSelectedStage=stageNow(vStageDefs);Object.entries(state.vienna.devices).forEach(([k,v])=>{const el=document.querySelector(`[data-device="${k}"]`);if(el)el.checked=!!v});document.getElementById('vDate').value=todayLocal();document.getElementById('vMinutes').value=stageDefinition(vStageDefs,vSelectedStage).minutes;vDeviceText();vMakeTask();vRenderRecords()}
+document.getElementById('vDevices').addEventListener('change',e=>{if(!e.target.matches('[data-device]'))return;state.vienna.devices[e.target.dataset.device]=e.target.checked;save();vDeviceText()});
+document.getElementById('vPhaseTabs').addEventListener('click',e=>{const b=e.target.closest('[data-v-phase]');if(!b)return;vSelectedStage=b.dataset.vPhase;document.getElementById('vMinutes').value=stageDefinition(vStageDefs,vSelectedStage).minutes;vMakeTask()});
+document.getElementById('vMarkTrained').addEventListener('click',()=>{const stage=vSelectedStage;if(stage!==stageNow(vStageDefs))return toast('只能完成目前月份階段的任務');
+ const raw=document.getElementById('vDoneMinutes').value.trim(),minutes=raw===''?null:Number(raw);if(minutes!==null&&(!Number.isInteger(minutes)||minutes<1||minutes>180))return toast('分鐘數請填1–180整數或留空');
+ const info=chooseV(stage),date=todayLocal(),id='vsession-'+Date.now()+'-'+Math.floor(Math.random()*100000),note=document.getElementById('vDoneNote').value.trim().slice(0,180);
+ state.vienna.sessions.push({id,date,phase:stage,number:info.ordinal,title:info.task.title,kind:info.task.kind,minutes,note,auditCycle:info.auditCycle});
+ if(minutes!==null)state.logs.unshift({id,date,subject:'維也納',hours:minutes/60,status:'完成',note:`${info.task.title}${note?'：'+note:''}`.slice(0,500)});
+ save();document.getElementById('vDoneMinutes').value='';document.getElementById('vDoneNote').value='';vMakeTask();vRenderRecords();renderJournal();updateDashboard();toast('已完成，下一張認知任務已更新');
+});
+document.getElementById('vUndoTrained').addEventListener('click',()=>{const list=vSessions(vSelectedStage),last=list.at(-1);if(!last)return;if(!confirm(`撤銷「${last.title}」嗎？`))return;state.vienna.sessions=state.vienna.sessions.filter(x=>x.id!==last.id);state.logs=state.logs.filter(x=>x.id!==last.id);save();vMakeTask();vRenderRecords();renderJournal();updateDashboard();toast('已撤銷認知訓練')});
+document.getElementById('vCopyPrompt').addEventListener('click',()=>{promptIndex=prompts.findIndex(x=>x.key==='vienna');renderPromptMenu();renderPrompt();copyCurrent()});
+function vRenderRecords(){
+ const data=state.vienna.records||[];
+ const sessions=state.vienna.sessions||[];
+ document.getElementById('vCount').textContent=sessions.length;
+ document.getElementById('vTime').textContent=sessions.reduce((v,x)=>v+(Number(x.minutes)||0),0)+' 分';
+ document.getElementById('vLast').textContent=sessions.length?sessions.map(x=>x.date).sort().at(-1):'尚未登錄';
+ if(!data.length){document.getElementById('vRecords').innerHTML='<div class="empty-state">還沒有認知練習紀錄。完成今天的測驗後，再填入實際資料；未知欄位留空。</div>';return}
+ const sorted=data.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))||String(b.id).localeCompare(String(a.id)));
+ document.getElementById('vRecords').innerHTML=`<div class="table-wrap"><table class="data-table v-table"><thead><tr><th>日期／類別</th><th>實測正確率</th><th>誤按／漏按</th><th>網站分數／反應時間</th><th>錯誤與下次調整</th><th>操作</th></tr></thead><tbody>${sorted.map(x=>{const accuracy=(Number.isInteger(x.total)&&x.total>0&&Number.isInteger(x.correct))?(Math.round(x.correct/x.total*1000)/10)+'%':'未測';return `<tr><td><b>${safeText(x.date)}</b><br>${safeText(x.kind)}<br><span class="muted">${safeText(x.tool)} · ${safeText(x.minutes)}分</span></td><td><b>${accuracy}</b><br><span class="muted">${x.total!=null?`${x.correct}/${x.total}題`:'無可核對題數'}</span></td><td>${x.falseCount==null?'—':safeText(x.falseCount)} / ${x.misses==null?'—':safeText(x.misses)}</td><td>${x.siteScore==null?'—':safeText(x.siteScore)+'% 綜合分'}${x.stanine==null?'':' · 等級'+x.stanine}<br>${x.rt==null?'':safeText(x.rt)+'ms（工具回報）'}</td><td class="v-record-note">${safeText(x.condition||'')}<br>${safeText(x.mistakes||'未註記')}<br><span class="muted">下次：${safeText(x.next||'未設定')}</span></td><td><button type="button" class="delete-btn" data-v-delete="${safeText(x.id)}">刪除</button></td></tr>`}).join('')}</tbody></table></div>`
+}
+function vOptionalNumber(id){const raw=document.getElementById(id).value.trim();return raw===''?null:Number(raw)}
+document.getElementById('vScoreForm').addEventListener('submit',e=>{
+ e.preventDefault();const total=vOptionalNumber('vTotalQ'),correct=vOptionalNumber('vCorrectQ'),fa=vOptionalNumber('vFalseQ'),miss=vOptionalNumber('vMissQ');
+ const siteScore=vOptionalNumber('vSiteScore'),stanine=vOptionalNumber('vStanine'),rt=vOptionalNumber('vReaction');
+ const msg=document.getElementById('vValidation');msg.style.color='#ad5947';
+ if((total===null)!==(correct===null)){msg.textContent='若要計算正確率，必須同時輸入總題數與答對題數；否則兩格都留空。';return}
+ if(total!==null&&(!Number.isInteger(total)||total<1||!Number.isInteger(correct)||correct<0||correct>total)){msg.textContent='答對數必須是0到總題數之間的整數。';return}
+ for(const n of [fa,miss]){if(n!==null&&(!Number.isInteger(n)||n<0)){msg.textContent='誤按與漏按應為非負整數。';return}}
+ if(total!==null&&fa!==null&&miss!==null&&fa+miss>total-correct){msg.textContent='誤按＋漏按超過錯題總數，請核對。若平台計分分類不同，這兩欄可留空並在備註說明。';return}
+ if(total!==null&&((fa||0)>(total-correct)||(miss||0)>(total-correct))){msg.textContent='誤按或漏按不可超過錯題數；不同計分制度請在備註說明並留空。';return}
+ if(siteScore!==null&&(!(siteScore>=0&&siteScore<=100)||!Number.isFinite(siteScore))){msg.textContent='網站分數請填寫0–100％，不要填網站等級。';return}
+ if(stanine!==null&&(!Number.isInteger(stanine)||stanine<1||stanine>9)){msg.textContent='網站等級請填寫1–9；若不適用可留空。';return}
+ if(rt!==null&&(!(rt>=0&&rt<=30000)||!Number.isFinite(rt))){msg.textContent='反應時間需填毫秒數；未知請留空。';return}
+ const date=document.getElementById('vDate').value,minutes=Number(document.getElementById('vMinutes').value);
+ if(!date||!Number.isInteger(minutes)||minutes<1||minutes>180){msg.textContent='請輸入有效日期和1–180分鐘之間的實際時數。';return}
+ const rec={id:'vlog-'+Date.now()+'-'+Math.floor(Math.random()*1e5),date,minutes,kind:document.getElementById('vKind').value,tool:document.getElementById('vTool').value,total,correct,falseCount:fa,misses:miss,siteScore,stanine,rt,condition:document.getElementById('vCondition').value.trim().slice(0,80),mistakes:document.getElementById('vMistakes').value.trim().slice(0,300),next:document.getElementById('vNextPlan').value.trim().slice(0,300)};
+ state.vienna.records.unshift(rec);
+ const acc=total===null?'正確率未測':`正確率 ${(100*correct/total).toFixed(1)}%（${correct}/${total}）`;
+ const note=`${rec.kind} / ${rec.tool} / ${acc} / 誤按${fa??'未知'} / 漏按${miss??'未知'} / ${siteScore==null?'':'網站綜合分'+siteScore+'% / '}${rt==null?'':'反應'+rt+'ms / '}${rec.mistakes}；下次：${rec.next}`;
+ /* measured results remain linked to this cognitive score; no duplicate time log */
+ save();vRenderRecords();renderJournal();updateDashboard();document.getElementById('vTotalQ').value='';document.getElementById('vCorrectQ').value='';document.getElementById('vFalseQ').value='';document.getElementById('vMissQ').value='';document.getElementById('vSiteScore').value='';document.getElementById('vStanine').value='';document.getElementById('vReaction').value='';document.getElementById('vMistakes').value='';document.getElementById('vNextPlan').value='';msg.style.color='#168577';msg.textContent=`已儲存：${acc}。訓練時數由「已訓練」單獨紀錄。`;toast('維也納成績已儲存');
+});
+document.getElementById('vRecords').addEventListener('click',e=>{const b=e.target.closest('[data-v-delete]');if(!b)return;if(!confirm('確定刪除這筆認知測驗及連動的學習日誌？'))return;state.vienna.records=state.vienna.records.filter(x=>x.id!==b.dataset.vDelete);state.logs=state.logs.filter(x=>x.id!==b.dataset.vDelete);save();vRenderRecords();renderJournal();updateDashboard();toast('已刪除認知紀錄')});
+
+// Simulator queue and score capture. The date and model are not treated as official benchmarks.
+function sChoose(stage){const n=sSessions(stage).length,series=sTasks[stage];return {task:series[n%series.length],ordinal:n+1}}
+function sMakeTask(){const stage=sSelectedStage,cfg=stageDefinition(sStageDefs,stage),hist=sSessions(stage),info=sChoose(stage),task=info.task,active=todayLocal()>='2027-04-01'&&todayLocal()<='2027-09-30'&&stageNow(sStageDefs)===stage;
+ document.getElementById('sPhaseTabs').innerHTML=sStageDefs.map(x=>`<button class="tab ${x.id===stage?'active':''}" data-s-phase="${x.id}" type="button" aria-pressed="${x.id===stage}">${x.name}</button>`).join('');
+ document.getElementById('sSessionStats').innerHTML=`<span>本階段完成 ${hist.length} 次</span><span>本週 ${weekCount(hist)} / 建議 ${cfg.perWeek} 次</span><span>建議每次 ${cfg.minutes} 分</span><span>第 ${info.ordinal} 次</span>`;
+ const timing=cfg.minutes===45?'7分設定＋18分基本操控＋3分休息＋12分目標任務＋5分記錄':'8分設定＋15分基礎操作＋3分休息＋18分整合任務＋6分回顧';
+ document.getElementById('sTaskBox').innerHTML=`<span class="tag teal">${stage==='foundation'?'基本操作與儀表':'多工與錯誤恢復'}</span><h3>第 ${info.ordinal} 次｜${safeText(task.title)}</h3><p><b>建議時間：</b>${cfg.minutes} 分鐘（${timing}）</p><p><b>本次目標：</b>${safeText(task.goal)}</p><ol>${task.parts.map(x=>`<li>${safeText(x)}</li>`).join('')}</ol><p class="small muted">每四週保留一次較陌生的變化條件，觀察是否能轉移；用相同機型與場景作同條件比較。若沒設備或未操作，就不要標記完成。</p>`;
+ document.getElementById('sMarkTrained').disabled=!active;document.getElementById('sUndoTrained').disabled=!hist.length;
+ document.getElementById('sHint').textContent=active?'自由選日，不自動跳過、沒有欠課；只回報實際測到的飛行數據。':'此階段僅供預覽；4月前未安排正式模擬機時數。';
+ document.getElementById('sCompletionHistory').innerHTML=state.sim.sessions.length?state.sim.sessions.slice().reverse().slice(0,14).map(x=>`<div class="v-history-item"><div><b>${safeText(x.date)}｜${safeText(x.title)}</b><div class="micro muted">航向偏差 ${x.heading==null?'未測':safeText(x.heading)+'°'}　高度 ${x.altitude==null?'未測':safeText(x.altitude)+'ft'}　空速 ${x.airspeed==null?'未測':safeText(x.airspeed)+'kt'}　英文指令 ${safeText(x.commands||'未測')}　過度修正 ${x.overshoot==null?'未測':safeText(x.overshoot)+'次'}</div><div class="micro muted">${safeText(x.note||'')}</div></div><span>${x.minutes==null?'未填時數':safeText(x.minutes)+'分'}</span></div>`).join(''):'<div class="empty-state">尚無模擬機完成紀錄。</div>';
+}
+function sInit(){sSelectedStage=stageNow(sStageDefs);sMakeTask()}
+document.getElementById('sPhaseTabs').addEventListener('click',e=>{const b=e.target.closest('[data-s-phase]');if(!b)return;sSelectedStage=b.dataset.sPhase;sMakeTask()});
+function sOptionalNum(id){const raw=document.getElementById(id).value.trim();return raw===''?null:Number(raw)}
+document.getElementById('sMarkTrained').addEventListener('click',()=>{if(sSelectedStage!==stageNow(sStageDefs))return toast('只能完成目前月份的模擬機任務');if(todayLocal()<'2027-04-01')return toast('模擬機依原計畫從 2027/4 開始');
+ const minutes=sOptionalNum('sDoneMinutes'),heading=sOptionalNum('sHeading'),altitude=sOptionalNum('sAltitude'),airspeed=sOptionalNum('sAirspeed'),overshoot=sOptionalNum('sOvershoot');
+ if(minutes!==null&&(!Number.isInteger(minutes)||minutes<1||minutes>180))return toast('分鐘數需為1–180整數');
+ for(const [v,max] of [[heading,360],[altitude,100000],[airspeed,500]]){if(v!==null&&(!Number.isFinite(v)||v<0||v>max))return toast('偏差數值不合理，未知請留空')}
+ if(overshoot!==null&&(!Number.isInteger(overshoot)||overshoot<0||overshoot>999))return toast('過度修正次數需為非負整數');
+ const commands=document.getElementById('sCommands').value.trim();if(commands&&!/^\d+\s*\/\s*\d+$/.test(commands))return toast('指令紀錄請輸入成功/總數，例如3/4');
+ if(commands){const [right,all]=commands.split('/').map(Number);if(all<1||right>all)return toast('成功數不可超過總指令數')}
+ const info=sChoose(sSelectedStage),id='ssession-'+Date.now()+'-'+Math.floor(Math.random()*100000),date=todayLocal(),note=document.getElementById('sDoneNote').value.trim().slice(0,220);
+ state.sim.sessions.push({id,date,stage:sSelectedStage,number:info.ordinal,title:info.task.title,minutes,heading,altitude,airspeed,overshoot,commands,note});
+ if(minutes!==null)state.logs.unshift({id,date,subject:'模擬機',hours:minutes/60,status:'完成',note:`${info.task.title}／航向偏差${heading??'未測'}°／高度偏差${altitude??'未測'}ft／指令${commands||'未測'}／${note}`.slice(0,500)});
+ save();['sDoneMinutes','sHeading','sAltitude','sAirspeed','sOvershoot','sCommands','sDoneNote'].forEach(k=>document.getElementById(k).value='');sMakeTask();renderJournal();updateDashboard();toast('模擬機任務完成，已排下一次');
+});
+document.getElementById('sUndoTrained').addEventListener('click',()=>{const last=sSessions(sSelectedStage).at(-1);if(!last)return;if(!confirm(`撤銷「${last.title}」嗎？`))return;state.sim.sessions=state.sim.sessions.filter(x=>x.id!==last.id);state.logs=state.logs.filter(x=>x.id!==last.id);save();sMakeTask();renderJournal();updateDashboard();toast('已撤銷模擬機紀錄')});
+
+const logNames=['英文','物理','數學','心算','維也納','模擬機','航空知識','航空英文','適職人格','中文面試','英文面試'];document.getElementById('logSubject').innerHTML=logNames.map(s=>`<option>${s}</option>`).join('');function todayLocal(){const d=new Date();return [d.getFullYear(),String(d.getMonth()+1).padStart(2,'0'),String(d.getDate()).padStart(2,'0')].join('-')}document.getElementById('logDate').value=todayLocal();
+document.getElementById('logForm').addEventListener('submit',e=>{e.preventDefault();const hours=Number(document.getElementById('logHours').value);const date=document.getElementById('logDate').value;const sub=document.getElementById('logSubject').value;if(!date||!Number.isFinite(hours)||hours<=0||hours>12){toast('請填寫有效日期與0–12小時內的時數');return}const id=Date.now()+'-'+Math.floor(Math.random()*100000);state.logs.unshift({id,date,subject:sub,hours,status:document.getElementById('logStatus').value,note:document.getElementById('logNote').value.trim().slice(0,500)});save();renderJournal();updateDashboard();document.getElementById('logNote').value='';toast('已加入學習紀錄')});
+function renderJournal(){const holder=document.getElementById('journalList');document.getElementById('journalTotal').textContent=`目前 ${state.logs.length} 筆`;if(!state.logs.length){holder.innerHTML='<div class="empty-state">尚無學習紀錄。完成一堂練習後，從上方新增第一筆。</div>';return}holder.innerHTML=state.logs.slice().sort((a,b)=>String(b.date).localeCompare(String(a.date))).map(x=>`<div class="journal-item"><div><strong>${safeText(x.subject||'未分類')} <span class="tag">${safeText(x.status||'完成')}</span></strong><p>${safeText(x.date||'')} · ${safeText(x.note||'未填寫練習內容')}</p></div><div style="display:flex;align-items:center;gap:10px;white-space:nowrap"><span class="meta">${Number(x.hours)||0} h</span><button type="button" class="delete-btn" data-del="${safeText(x.id)}">刪除</button></div></div>`).join('')}
+document.getElementById('journalList').addEventListener('click',e=>{const b=e.target.closest('[data-del]');if(!b)return;if(!confirm('確定刪除這筆學習紀錄？'))return;state.logs=state.logs.filter(x=>String(x.id)!==b.dataset.del);if(state.vienna&&Array.isArray(state.vienna.records))state.vienna.records=state.vienna.records.filter(x=>String(x.id)!==b.dataset.del);save();renderJournal();vRenderRecords();updateDashboard();toast('已刪除')});
+function exportProgress(){const obj={version:2,generatedAt:new Date().toISOString(),plan:'FLIGHTPATH 2027',checked:state.checked,logs:state.logs,vienna:state.vienna,sim:state.sim};const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=`flightpath2027-backup-${todayLocal()}.json`;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1200);toast('已匯出進度備份')}
+document.getElementById('exportBtn').addEventListener('click',exportProgress);document.getElementById('exportBtn2').addEventListener('click',exportProgress);document.getElementById('importBtn').addEventListener('click',()=>document.getElementById('importFile').click());document.getElementById('importFile').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{const obj=JSON.parse(await f.text());if(!obj||typeof obj!=='object'||!obj.checked||typeof obj.checked!=='object'||!Array.isArray(obj.logs))throw new Error('bad format');if(!confirm('匯入備份會取代目前的學習進度與日誌，確定繼續？'))return;const validKeys=new Set(months.flatMap(m=>m.tasks.map((_,i)=>`${m.key}-${i}`)));const checked={};Object.entries(obj.checked).forEach(([k,v])=>{if(validKeys.has(k))checked[k]=!!v});const logs=obj.logs.slice(0,10000).filter(x=>typeof x==='object'&&x!==null).map(x=>({id:String(x.id||Math.random()),date:String(x.date||'').slice(0,10),subject:String(x.subject||'').slice(0,100),hours:Math.max(0,Math.min(12,Number(x.hours)||0)),status:String(x.status||'完成').slice(0,50),note:String(x.note||'').slice(0,500)}));state={checked,logs,sim:{sessions:(obj.sim&&Array.isArray(obj.sim.sessions)?obj.sim.sessions.slice(0,10000).filter(x=>x&&typeof x==='object'):[])},vienna:{devices:(obj.vienna&&typeof obj.vienna.devices==='object'&&obj.vienna.devices)||{},records:(obj.vienna&&Array.isArray(obj.vienna.records)?obj.vienna.records.slice(0,10000).filter(x=>x&&typeof x==='object'):[]),sessions:(obj.vienna&&Array.isArray(obj.vienna.sessions)?obj.vienna.sessions.slice(0,10000).filter(x=>x&&typeof x==='object'):[])}};save();renderMonths();renderJournal();vInit();sInit();updateDashboard();toast('匯入成功')}catch(err){toast('匯入失敗：檔案格式不符合備份資料')}finally{e.target.value=''}});document.getElementById('clearBtn').addEventListener('click',()=>{if(!confirm('確定清除所有勾選與學習日誌？這無法復原，建議先匯出備份。'))return;state={checked:{},logs:[],vienna:{devices:{},records:[],sessions:[]},sim:{sessions:[]}};save();renderMonths();renderJournal();vInit();sInit();updateDashboard();toast('已清除全部紀錄')});
+renderMonths();renderPhases();renderModules();renderPromptMenu();renderPrompt();vInit();sInit();renderJournal();updateDashboard();const hash=location.hash.replace('#','');if(pages[hash])navigate(hash);
+})();
+</script>
+
+<script>
+// App-shell install and responsive navigation. The study planner itself remains unchanged.
+(()=>{
+  'use strict';
+  const more = document.getElementById('mobileMoreToggle');
+  const menu = document.getElementById('mobileMoreMenu');
+  const shade = document.getElementById('mobileMoreShade');
+  const close = () => { menu.hidden = true; shade.hidden = true; more.setAttribute('aria-expanded','false'); };
+  const show = () => { menu.hidden = false; shade.hidden = false; more.setAttribute('aria-expanded','true'); };
+  more.addEventListener('click', () => menu.hidden ? show() : close());
+  shade.addEventListener('click',close);
+  document.getElementById('closeMoreBtn').addEventListener('click',close);
+  menu.addEventListener('click',e=>{if(e.target.closest('[data-view]'))close();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});
+  const moreViews = new Set(['weekly','modules','ai','journal','resources']);
+  const syncMore = () => { const page=location.hash.slice(1) || 'dashboard';more.classList.toggle('active',moreViews.has(page)); };
+  document.addEventListener('click',e=>{if(e.target.closest('[data-view],[data-goto]'))queueMicrotask(syncMore);});
+  window.addEventListener('hashchange',()=>{syncMore();close()});
+  syncMore();
+
+  const help = document.getElementById('installHelpDialog');
+  document.getElementById('installHelpClose').addEventListener('click',()=>help.close());
+  help.addEventListener('click',e=>{if(e.target===help)help.close();});
+  let deferred = null;
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferred=e;});
+  const btn=document.getElementById('installAppBtn');
+  btn.addEventListener('click',async()=>{
+    if(deferred){
+      const event=deferred; deferred=null;
+      try{await event.prompt(); await event.userChoice;}catch(_){help.showModal();}
+    } else { help.showModal(); }
+  });
+  const isInstalled=()=>window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true;
+  const updateInstall=()=>{if(isInstalled())btn.hidden=true;};
+  window.addEventListener('appinstalled',()=>{deferred=null;updateInstall();});
+  updateInstall();
+  if('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost' || location.hostname==='127.0.0.1')){
+    window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(err=>console.info('離線功能未啟用',err)));
+  }
+})();
+</script>
+</body>
+</html>
